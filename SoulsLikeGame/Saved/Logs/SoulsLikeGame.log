@@ -2564,3 +2564,102 @@ Script Stack (0 frames) :
 [2024.01.22-19.30.12:520][120]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
 [2024.01.22-19.30.12:527][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
 [2024.01.22-19.30.12:614][121]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.01.22-19.37.28:374][605]LogSlate: External Image Picker: DecompressImage failed
+[2024.01.22-19.37.34:208][622]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.22-19.37.34:213][622]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.22-19.45.02:471][ 59]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.01.22-19.45.07:002][572]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.01.22-19.45.07:008][572]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.01.22-19.45.07:017][573]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.01.22-19.45.11:704][136]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Dodge
+[2024.01.22-19.45.11:718][136]LogContentBrowser: End creating deferred item NewInputAction
+[2024.01.22-19.45.14:240][432]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Dodge.IA_Dodge
+[2024.01.22-19.45.17:747][777]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.22-19.45.17:798][777]LogSavePackage: Moving output files for package: /Game/CombatSystem/CourseFiles/Animations/LightSword/LightAttack/LightAttack03_Montage
+[2024.01.22-19.45.17:798][777]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/LightAttack03_MontageE9CD6EC94F4AC96D272F42A4B6512D75.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/CourseFiles/Animations/LightSword/LightAttack/LightAttack03_Montage.uasset'
+[2024.01.22-19.45.17:805][777]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 3.98 sec)
+[2024.01.22-19.45.17:806][777]AssetCheck: New page: Asset Save: LightAttack03_Montage
+[2024.01.22-19.45.17:806][777]LogContentValidation: Display: Validating /Script/Engine.AnimMontage /Game/CombatSystem/CourseFiles/Animations/LightSword/LightAttack/LightAttack03_Montage.LightAttack03_Montage
+[2024.01.22-19.45.29:270][347]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.22-19.45.33:927][839]LogSlate: Took 0.008025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.22-19.45.44:111][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.22-19.45.44:148][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/IMC_Default.uasset" SILENT=true
+[2024.01.22-19.45.44:169][  6]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2024.01.22-19.45.44:170][  6]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/IMC_DefaultF9B3B1C446DFB4AE65B2E8BCFE125092.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/IMC_Default.uasset'
+[2024.01.22-19.45.44:176][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 4.04 sec)
+[2024.01.22-19.45.44:177][  6]AssetCheck: New page: Asset Save: IMC_Default
+[2024.01.22-19.45.44:177][  6]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.22-19.46.18:988][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.22-19.46.18:990][126]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.022
+[2024.01.22-19.46.18:990][126]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/Actions/IA_Dodge] ([1] browsable assets)...
+[2024.01.22-19.46.18:990][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/Actions/IA_Dodge]
+[2024.01.22-19.46.18:990][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_Dodge" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/Input/Actions/IA_Dodge_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.01.22-19.46.18:991][126]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Input/Actions/IA_Dodge_Auto2
+[2024.01.22-19.46.18:991][126]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/IA_Dodge_Auto2E7669C70466555DFD680B19E204D9E07.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/Input/Actions/IA_Dodge_Auto2.uasset'
+[2024.01.22-19.46.18:991][126]LogFileHelpers: Auto-saving content packages took 0.001
+[2024.01.22-19.46.55:586][431]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.22-19.46.55:592][431]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.22-19.46.55:592][431]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.22-19.46.55:593][431]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 784 us (total: 44 ms)
+[2024.01.22-19.46.55:593][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.22-19.46.55:593][431]PIE: New page: PIE session: ThirdPersonMap (22 de jan de 2024 13:46:55)
+[2024.01.22-19.46.55:593][431]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.22-19.46.55:596][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002738s)
+[2024.01.22-19.46.55:596][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002767s)
+[2024.01.22-19.46.55:609][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.22-19.46.55:610][431]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.22-19.46.55:610][431]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.22-19.46.55:610][431]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.22-19.46.55:611][431]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.22-19.46.55:611][431]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.22-19.46.55:611][431]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.22-19.46.55:611][431]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.22-19.46.55:612][431]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.22-19.46.55:612][431]LogWorldPartition: Display: WorldPartition initialize took 726 us (total: 861 ms)
+[2024.01.22-19.46.55:612][431]LogPlayLevel: PIE: World Init took: (0.001838s)
+[2024.01.22-19.46.55:612][431]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.01.22-19.46.55:612][431]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.22-19.46.55:612][431]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.22-19.46.55:612][431]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.22-19.46.55:612][431]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.22-19.46.55:612][431]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.22-19.46.55:612][431]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.22-19.46.55:612][431]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.22-19.46.55:612][431]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.22-19.46.55:612][431]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.22-19.46.55:613][431]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.22-19.46.55:613][431]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.22-19.46.55:614][431]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.22-19.46.55:697][431]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.22-19.46.55:697][431]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.22-19.46.55:697][431]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.22-19.46.55:697][431]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.22-19.46.55:698][431]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.01.22-19.46.55:698][431]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.01.22-19.46.55:699][431]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.01.22-19.46.55:699][431]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.01.22-19.46.55:699][431]LogInit: FAudioDevice initialized with ID 14.
+[2024.01.22-19.46.55:699][431]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2024.01.22-19.46.55:699][431]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.22-19.46.55:736][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.22-19.46.55:736][431]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.22-19.46.55:737][431]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.22-16.46.55
+[2024.01.22-19.46.55:737][431]LogWorld: Bringing up level for play took: 0.000963
+[2024.01.22-19.46.55:740][431]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.01.22-19.46.55:760][431]PIE: Server logged in
+[2024.01.22-19.46.55:761][431]PIE: Play in editor total start time 0,169 seconds.
+[2024.01.22-19.46.55:834][431]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.22-19.47.17:188][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.22-19.47.17:188][824]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.22-19.47.17:188][824]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.22-19.47.17:194][824]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.22-19.47.17:194][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.22-19.47.17:194][824]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.22-19.47.17:196][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.22-19.47.17:202][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.22-19.47.17:217][824]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.22-19.47.17:217][824]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.22-19.47.17:219][824]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.22-19.47.17:226][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.01.22-19.47.17:278][825]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.01.22-19.54.54:345][ 80]LogDerivedDataCache: C:/Users/enzo.santos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:44.322 and deleted 2 files with total size 0 MiB and 4 empty folders. Scanned 22998 files in 24609 folders with total size 1565 MiB.
