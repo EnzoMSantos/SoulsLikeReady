@@ -1694,3 +1694,1331 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.01.23-19.22.07:196][707]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
 [2024.01.23-19.22.07:203][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
 [2024.01.23-19.22.07:266][708]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.01.23-19.27.42:731][ 67]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.01.23-19.27.46:798][110]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.23-19.27.46:838][110]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.01.23-19.27.46:846][110]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.01.23-19.27.46:862][111]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.01.23-19.27.54:734][560]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_CollisionComponent
+[2024.01.23-19.27.54:742][560]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.01.23-19.27.55:296][592]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.27.55:366][592]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.27.55:366][592]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent11432DC44642F48AA2F8E297B2B4ED23.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.27.55:380][592]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 810 ms)
+[2024.01.23-19.27.55:381][592]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.27.55:381][592]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.27.59:715][840]LogContentBrowser: Attempting asset rename: CombatComponent -> BP_CombatComponent
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent_C' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent:EventGraph.K2Node_Event_0' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent:EventGraph.K2Node_Event_1' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent:SetMainWeapon.K2Node_FunctionEntry_0' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent:GetMainWeapon.K2Node_FunctionEntry_0' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent:SetCombatEnabled.K2Node_FunctionEntry_0' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent:IsCombatEnabled?.K2Node_FunctionEntry_0' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent:ResetAttack.K2Node_FunctionEntry_0' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.SKEL_BP_CombatComponent_C:ReceiveBeginPlay' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.SKEL_BP_CombatComponent_C:ReceiveTick' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.SKEL_BP_CombatComponent_C:SetCombatEnabled' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.SKEL_BP_CombatComponent_C' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent_C:ReceiveBeginPlay' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:702][840]LogMetaData: Removing '/Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent_C:SetCombatEnabled' ref from Metadata '/Game/CombatSystem/Blueprints/Components/CombatComponent.PackageMetaData'
+[2024.01.23-19.28.00:844][840]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.28.00:909][840]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CombatComponent
+[2024.01.23-19.28.00:909][840]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatComponentEE1D1FF14321CEF2BFA2208E4FD5CD79.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CombatComponent.uasset'
+[2024.01.23-19.28.00:915][840]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/CombatComponent
+[2024.01.23-19.28.00:915][840]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/CombatComponent905B99AD4B8285E030CBA399D5BA3C42.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/CombatComponent.uasset'
+[2024.01.23-19.28.00:929][840]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 895 ms)
+[2024.01.23-19.28.00:930][840]LogAssetEditorSubsystem: Opening Asset editor for ObjectRedirector /Game/CombatSystem/Blueprints/Components/CombatComponent.CombatComponent
+[2024.01.23-19.28.00:955][840]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.23-19.28.00:955][840]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent
+[2024.01.23-19.28.00:955][840]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/CombatSystem/Blueprints/Components/CombatComponent.CombatComponent
+[2024.01.23-19.28.00:955][840]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/CombatSystem/Blueprints/Components/CombatComponent.CombatComponent_C
+[2024.01.23-19.28.00:955][840]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/CombatSystem/Blueprints/Components/CombatComponent.Default__CombatComponent_C
+[2024.01.23-19.28.07:134][334]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent
+[2024.01.23-19.28.07:134][334]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-19.28.07:134][334]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-19.28.11:114][644]LogSlate: Window 'BP_CombatComponent' being destroyed
+[2024.01.23-19.28.11:120][644]LogSlate: Window 'BP_CombatComponent' being destroyed
+[2024.01.23-19.28.11:124][644]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-19.28.11:124][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-19.28.35:822][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.23-19.28.35:823][462]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.018
+[2024.01.23-19.28.35:824][462]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2024.01.23-19.28.35:836][462]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2024.01.23-19.28.35:836][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2024.01.23-19.28.35:883][462]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto1
+[2024.01.23-19.28.35:884][462]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter_Auto122DACFC149256CD881DE04889273C9A3.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto1.uasset'
+[2024.01.23-19.28.35:885][462]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon] ([2] browsable assets)...
+[2024.01.23-19.28.35:885][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon]
+[2024.01.23-19.28.35:911][462]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto1
+[2024.01.23-19.28.35:911][462]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_BaseWeapon_Auto1105E034F40F391559D57979E0F55A5C1.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto1.uasset'
+[2024.01.23-19.28.35:912][462]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN] ([2] browsable assets)...
+[2024.01.23-19.28.35:912][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN]
+[2024.01.23-19.28.35:934][462]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN_Auto1
+[2024.01.23-19.28.35:934][462]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/ToggleCombat_AN_Auto14709D07C4FD0DF4F593470AB77F6469D.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN_Auto1.uasset'
+[2024.01.23-19.28.35:934][462]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN] ([2] browsable assets)...
+[2024.01.23-19.28.35:934][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN]
+[2024.01.23-19.28.35:938][462]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN_Auto1
+[2024.01.23-19.28.35:938][462]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/AttachWeaponActor_AN_Auto17F334B3844C21CB7C76A5B840CD79315.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN_Auto1.uasset'
+[2024.01.23-19.28.35:938][462]LogFileHelpers: Auto-saving content packages took 0.115
+[2024.01.23-19.39.06:567][763]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-19.39.06:567][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-19.39.06:597][763]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-19.39.06:597][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-19.39.07:980][867]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.23-19.39.08:100][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.23-19.39.33:706][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.01.23-19.39.33:707][818]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.015
+[2024.01.23-19.39.33:708][818]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2024.01.23-19.39.33:764][818]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2024.01.23-19.39.33:764][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2024.01.23-19.39.33:813][818]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto2
+[2024.01.23-19.39.33:814][818]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter_Auto2133F75D54E46D0819DA096806C62DAAB.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto2.uasset'
+[2024.01.23-19.39.33:814][818]LogFileHelpers: Auto-saving content packages took 0.107
+[2024.01.23-19.39.37:680][247]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/BP_CombatComponent.BP_CombatComponent
+[2024.01.23-19.39.37:681][247]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-19.39.37:681][247]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-19.39.40:846][493]LogSlate: Window 'BP_CombatComponent' being destroyed
+[2024.01.23-19.39.43:392][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.39.43:440][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-19.39.43:496][764]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-19.39.43:497][764]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter595DA17D40E2CF24663E589FBF80F365.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-19.39.43:505][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 1.00 sec)
+[2024.01.23-19.39.43:507][764]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-19.39.43:507][764]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-19.39.45:958][ 31]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-19.39.45:958][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-19.39.47:343][170]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.39.47:344][170]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-19.39.47:344][170]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-19.39.49:613][357]LogSlate: Window 'BP_CollisionComponent' being destroyed
+[2024.01.23-19.40.08:868][153]LogSlate: Took 0.013667 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.01.23-19.40.53:857][303]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.23-19.40.53:857][303]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.23-19.42.12:572][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.42.12:632][681]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.42.12:632][681]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentE2970851442F96C04161118C20E458E8.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.42.12:639][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 1.07 sec)
+[2024.01.23-19.42.12:640][681]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.42.12:640][681]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.42.42:020][213]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.42.42:083][213]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.42.42:083][213]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent8FD323AD48793592024F94B51D21B623.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.42.42:091][213]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.14 sec)
+[2024.01.23-19.42.42:091][213]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.42.42:091][213]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.42.50:502][788]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.42.50:586][788]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.42.50:587][788]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent351130184887682F0A4BA8B5D1E8940C.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.42.50:594][788]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 1.23 sec)
+[2024.01.23-19.42.50:595][788]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.42.50:595][788]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.43.01:084][661]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.43.01:155][661]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.43.01:156][661]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent87DA16424D0D94EAC0002996FB9F7B4F.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.43.01:162][661]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 1.31 sec)
+[2024.01.23-19.43.01:163][661]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.43.01:163][661]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.43.29:801][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.43.29:869][ 47]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.43.29:870][ 47]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentD880655946C03599E550BE82132561EE.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.43.29:876][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.39 sec)
+[2024.01.23-19.43.29:877][ 47]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.43.29:877][ 47]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.43.36:160][793]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.43.36:202][793]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.43.36:202][793]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentE089346947834BB8F099B1A34E257311.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.43.36:210][793]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.44 sec)
+[2024.01.23-19.43.36:211][793]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.43.36:211][793]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.44.24:597][682]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.44.24:673][682]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.44.24:673][682]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentACB00EEB462E2DF49EFBC89B409A43B2.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.44.24:680][682]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 1.52 sec)
+[2024.01.23-19.44.24:681][682]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.44.24:681][682]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.44.35:821][454]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.44.35:895][454]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.44.35:895][454]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent80A50950402D9A9E477BBF8F4AD6B658.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.44.35:902][454]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 1.60 sec)
+[2024.01.23-19.44.35:903][454]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.44.35:903][454]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.45.15:742][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.45.15:830][ 36]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.45.15:830][ 36]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent0D2B417940224CA7B0FCBC89080CFAC8.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.45.15:837][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 1.70 sec)
+[2024.01.23-19.45.15:838][ 36]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.45.15:838][ 36]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.46.50:751][607]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.46.50:841][607]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.46.50:841][607]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent7BAB5363410271686D2154A83091F3E0.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.46.50:848][607]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 1.79 sec)
+[2024.01.23-19.46.50:848][607]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.46.50:848][607]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.46.54:793][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.46.54:868][ 56]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.46.54:868][ 56]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent30F55C674473E3A34A19FFB32E0D726E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.46.54:876][ 56]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 1.88 sec)
+[2024.01.23-19.46.54:877][ 56]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.46.54:877][ 56]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.46.56:223][203]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-19.46.56:225][203]LogBlueprint: Error: [AssetLog] D:\SoulsLikeReady\SoulsLikeGame\Content\CombatSystem\Blueprints\Components\BP_CollisionComponent.uasset: [Compiler] The current value (ObjectTypeQuery1) of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2024.01.23-19.46.56:250][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.23-19.47.38:596][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.47.38:664][882]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.47.38:664][882]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentF459D57148173ADF61D95499434DA838.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.47.38:671][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 1.95 sec)
+[2024.01.23-19.47.38:672][882]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.47.38:672][882]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.47.39:775][999]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.47.39:831][999]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.47.39:831][999]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentD70C68CE436D7E7B3FDE0280C55A94C0.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.47.39:838][999]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 2.02 sec)
+[2024.01.23-19.47.39:839][999]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.47.39:839][999]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.47.42:284][282]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-19.47.42:286][282]LogBlueprint: Error: [AssetLog] D:\SoulsLikeReady\SoulsLikeGame\Content\CombatSystem\Blueprints\Components\BP_CollisionComponent.uasset: [Compiler] The current value (ObjectTypeQuery1) of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2024.01.23-19.47.42:305][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.23-19.47.51:675][811]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.47.51:731][811]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.47.51:731][811]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent659E6FA74C234B982E9689ADD1B8FB64.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.47.51:739][811]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 2.08 sec)
+[2024.01.23-19.47.51:740][811]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.47.51:740][811]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.48.08:570][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.48.08:633][859]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.48.08:634][859]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent1E7DD0AD4D85A3446D8966827287B99E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.48.08:641][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 2.15 sec)
+[2024.01.23-19.48.08:642][859]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.48.08:642][859]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.48.19:359][565]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-19.48.19:362][565]LogBlueprint: Error: [AssetLog] D:\SoulsLikeReady\SoulsLikeGame\Content\CombatSystem\Blueprints\Components\BP_CollisionComponent.uasset: [Compiler] The current value (ObjectTypeQuery1) of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
+[2024.01.23-19.48.19:380][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.23-19.48.24:245][119]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.48.24:315][119]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.48.24:315][119]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent961AB5C943E0A53C23C27B91AFC23D40.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.48.24:322][119]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 2.23 sec)
+[2024.01.23-19.48.24:324][119]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.48.24:324][119]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.49.02:421][920]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-19.49.02:423][920]LogBlueprint: Warning: [AssetLog] D:\SoulsLikeReady\SoulsLikeGame\Content\CombatSystem\Blueprints\Components\BP_CollisionComponent.uasset: [Compiler] Can't parse default value 'ObjectTypeQuery1' for  Collision Object Types . Property: Collision Object Types.
+[2024.01.23-19.49.02:441][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.01.23-19.49.09:273][389]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.49.09:334][389]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.49.09:334][389]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent3AFF891C4F1FAF756C83F28BE30DCDEA.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.49.09:342][389]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 2.30 sec)
+[2024.01.23-19.49.09:343][389]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.49.09:343][389]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.49.10:371][512]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-19.49.10:391][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.23-19.49.24:286][758]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.49.24:370][758]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.49.24:370][758]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent244305F644B5920214DD22A3F8B9CAFC.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.49.24:377][758]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 2.39 sec)
+[2024.01.23-19.49.24:378][758]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.49.24:378][758]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.49.25:782][922]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.49.25:893][922]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.49.25:893][922]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentF979B6AB42A133DA4A9A5488C4AC3B5C.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.49.25:901][922]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 2.51 sec)
+[2024.01.23-19.49.25:902][922]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.49.25:902][922]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.49.39:007][445]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.49.39:070][445]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.49.39:070][445]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentD10FEE9A4783DCAA2ED6B4BAB4AFDBB9.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.49.39:078][445]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 2.58 sec)
+[2024.01.23-19.49.39:079][445]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.49.39:079][445]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.49.39:622][510]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.49.39:710][510]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.49.39:711][510]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentAAC48E5A42E2A945B1A343BA29DA848D.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.49.39:719][510]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 2.68 sec)
+[2024.01.23-19.49.39:720][510]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.49.39:720][510]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.50.27:657][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.50.27:728][976]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.50.27:728][976]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent36BABDC24885BBB2AC726E9F50D7C502.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.50.27:735][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 2.76 sec)
+[2024.01.23-19.50.27:736][976]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.50.27:736][976]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.50.51:068][848]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.50.51:124][848]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.50.51:124][848]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent02920B884B5ED7D4E9EC54BDAB424834.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.50.51:132][848]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 2.82 sec)
+[2024.01.23-19.50.51:132][848]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.50.51:132][848]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.50.57:389][ 50]LogEditorTransaction: Undo Move Node
+[2024.01.23-19.51.05:210][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.51.05:276][719]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.51.05:276][719]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent0E517F3C499FF8C7CD5F16A5F0DA256D.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.51.05:284][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 2.89 sec)
+[2024.01.23-19.51.05:285][719]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.51.05:285][719]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.51.28:135][936]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.51.28:232][936]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.51.28:232][936]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentCF4C61B745B8C3A9692F7BB2040EFFCD.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.51.28:240][936]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 3.00 sec)
+[2024.01.23-19.51.28:241][936]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.51.28:241][936]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.51.35:528][420]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.51.35:621][420]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.51.35:621][420]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent42B3138D48692BDE293D1887CA585E57.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.51.35:629][420]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 3.10 sec)
+[2024.01.23-19.51.35:630][420]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.51.35:630][420]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.51.47:715][360]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.51.47:761][360]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.51.47:761][360]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentF699F8E44FF2864702EDBA9BEE40D10B.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.51.47:769][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 3.15 sec)
+[2024.01.23-19.51.47:770][360]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.51.47:770][360]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.51.49:711][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.51.49:795][593]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.51.49:795][593]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent807A6F564D38C0AB928C1B90C8275B29.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.51.49:803][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 3.24 sec)
+[2024.01.23-19.51.49:804][593]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.51.49:804][593]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.51.50:904][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.51.50:979][725]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.51.50:979][725]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent3867BB914332F6F85F201887AD8CC320.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.51.50:987][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 3.33 sec)
+[2024.01.23-19.51.50:988][725]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.51.50:988][725]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.52.15:696][164]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.52.15:779][164]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.52.15:779][164]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent501947C744EDCFBDADB0CABCA37A036E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.52.15:786][164]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 3.42 sec)
+[2024.01.23-19.52.15:787][164]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.52.15:787][164]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.52.19:844][641]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.52.19:912][641]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.52.19:912][641]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentD216340B480BC7363A814E8ADA3F2DC4.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.52.19:920][641]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 3.49 sec)
+[2024.01.23-19.52.19:921][641]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.52.19:921][641]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.53.24:582][278]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.53.24:651][278]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-19.53.24:651][278]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentA2CF05AC4631EF74B44DD5876F058BBD.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-19.53.24:659][278]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 3.57 sec)
+[2024.01.23-19.53.24:660][278]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-19.53.24:660][278]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-19.53.26:037][325]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-19.53.26:064][325]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.23-19.54.02:849][329]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.23-19.54.08:877][ 22]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.23-19.54.31:552][576]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.23-19.54.48:894][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.54.49:043][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-19.54.49:093][596]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-19.54.49:093][596]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterE1ADEF6049EC8B1EC69F24B5141F4279.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-19.54.49:102][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 3.78 sec)
+[2024.01.23-19.54.49:103][596]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-19.54.49:103][596]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-19.55.53:711][  8]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.23-19.55.53:783][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.01.23-19.55.54:569][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-19.55.54:715][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-19.55.54:763][ 82]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-19.55.54:764][ 82]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterF4A910CF4E642221E249489D797E97D6.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-19.55.54:771][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 3.98 sec)
+[2024.01.23-19.55.54:773][ 82]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-19.55.54:773][ 82]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-19.57.04:155][949]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.01.23-19.57.51:426][929]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.01.23-19.57.51:426][929]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.01.23-19.58.02:435][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.01.23-19.58.02:438][184]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.021
+[2024.01.23-19.58.02:438][184]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2024.01.23-19.58.02:438][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2024.01.23-19.58.02:486][184]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto3
+[2024.01.23-19.58.02:486][184]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter_Auto318FD518543BC2854FB046FA38ECD7D80.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto3.uasset'
+[2024.01.23-19.58.02:487][184]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon] ([2] browsable assets)...
+[2024.01.23-19.58.02:487][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon]
+[2024.01.23-19.58.02:498][184]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto3
+[2024.01.23-19.58.02:498][184]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_BaseWeapon_Auto32D659836483D7973EB163A804E554553.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto3.uasset'
+[2024.01.23-19.58.02:499][184]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN] ([2] browsable assets)...
+[2024.01.23-19.58.02:499][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN]
+[2024.01.23-19.58.02:503][184]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN_Auto3
+[2024.01.23-19.58.02:503][184]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/ToggleCombat_AN_Auto38F7A2F1149B0B1188857D59044D2BC85.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN_Auto3.uasset'
+[2024.01.23-19.58.02:504][184]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN] ([2] browsable assets)...
+[2024.01.23-19.58.02:504][184]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN]
+[2024.01.23-19.58.02:525][184]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN_Auto3
+[2024.01.23-19.58.02:525][184]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/AttachWeaponActor_AN_Auto37BA4D47D4AB1D31137DBBCB7A4787B22.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN_Auto3.uasset'
+[2024.01.23-19.58.02:526][184]LogFileHelpers: Auto-saving content packages took 0.088
+[2024.01.23-19.58.05:479][463]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-19.58.05:485][463]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-19.58.05:485][463]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-19.58.05:486][463]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 691 us (total: 2 ms)
+[2024.01.23-19.58.05:486][463]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.23-19.58.05:500][463]LogPlayLevel: [PlayLevel] Compiling BP_BaseWeapon before play...
+[2024.01.23-19.58.05:500][463]LogPlayLevel: [PlayLevel]   Compiling BP_GreatSword as a dependent...
+[2024.01.23-19.58.05:500][463]LogPlayLevel: [PlayLevel]   Compiling BP_ToughSword as a dependent...
+[2024.01.23-19.58.05:543][463]LogPlayLevel: [PlayLevel] Compiling ToggleCombat_AN before play...
+[2024.01.23-19.58.05:555][463]LogPlayLevel: [PlayLevel] Compiling AttachWeaponActor_AN before play...
+[2024.01.23-19.58.05:576][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.23-19.58.05:579][463]LogPlayLevel: PlayLevel: Blueprint regeneration took 93 ms (5 blueprints)
+[2024.01.23-19.58.05:579][463]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 13:58:05)
+[2024.01.23-19.58.05:580][463]LogPlayLevel: Display: Creating online subsystem for client :Context_18
+[2024.01.23-19.58.05:582][463]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.01.23-19.58.05:601][464]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-19.58.05:603][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002639s)
+[2024.01.23-19.58.05:603][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002679s)
+[2024.01.23-19.58.05:619][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.01.23-19.58.05:620][464]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-19.58.05:620][464]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-19.58.05:621][464]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-19.58.05:621][464]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-19.58.05:621][464]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-19.58.05:621][464]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-19.58.05:621][464]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-19.58.05:622][464]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-19.58.05:622][464]LogWorldPartition: Display: WorldPartition initialize took 810 us (total: 805 ms)
+[2024.01.23-19.58.05:622][464]LogPlayLevel: PIE: World Init took: (0.002090s)
+[2024.01.23-19.58.05:622][464]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.01.23-19.58.05:622][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-19.58.05:622][464]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-19.58.05:622][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-19.58.05:622][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-19.58.05:622][464]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-19.58.05:622][464]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-19.58.05:622][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-19.58.05:622][464]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-19.58.05:623][464]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-19.58.05:623][464]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-19.58.05:623][464]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-19.58.05:625][464]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-19.58.05:707][464]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-19.58.05:707][464]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-19.58.05:707][464]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-19.58.05:707][464]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-19.58.05:708][464]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.01.23-19.58.05:708][464]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.01.23-19.58.05:710][464]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.01.23-19.58.05:710][464]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.01.23-19.58.05:710][464]LogInit: FAudioDevice initialized with ID 5.
+[2024.01.23-19.58.05:710][464]LogAudio: Display: Audio Device (ID: 5) registered with world 'ThirdPersonMap'.
+[2024.01.23-19.58.05:710][464]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.23-19.58.05:763][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-19.58.05:763][464]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-19.58.05:765][464]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-16.58.05
+[2024.01.23-19.58.05:765][464]LogWorld: Bringing up level for play took: 0.000942
+[2024.01.23-19.58.05:770][464]PIE: Server logged in
+[2024.01.23-19.58.05:772][464]PIE: Play in editor total start time 0,287 seconds.
+[2024.01.23-19.58.05:786][464]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.23-19.58.08:995][640]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.01.23-19.58.33:828][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-19.58.33:828][985]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-19.58.33:828][985]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-19.58.33:834][985]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-19.58.33:834][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-19.58.33:834][985]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-19.58.33:836][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-19.58.33:842][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-19.58.33:856][985]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.01.23-19.58.33:856][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.23-19.58.33:858][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.01.23-19.58.33:865][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.23-19.58.33:945][986]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.01.23-20.08.31:175][750]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.01.23-20.08.31:178][750]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.019
+[2024.01.23-20.08.31:178][750]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2024.01.23-20.08.31:314][750]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2024.01.23-20.08.31:314][750]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2024.01.23-20.08.31:371][750]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto4
+[2024.01.23-20.08.31:371][750]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter_Auto493C9FD6A4DFB6FA18CC99FB72DD8890A.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto4.uasset'
+[2024.01.23-20.08.31:372][750]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN] ([2] browsable assets)...
+[2024.01.23-20.08.31:372][750]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN]
+[2024.01.23-20.08.31:376][750]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN_Auto4
+[2024.01.23-20.08.31:377][750]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/ToggleCombat_AN_Auto444ADC8C743DB916638B2488E18ADB34A.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN_Auto4.uasset'
+[2024.01.23-20.08.31:377][750]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN] ([2] browsable assets)...
+[2024.01.23-20.08.31:377][750]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN]
+[2024.01.23-20.08.31:399][750]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN_Auto4
+[2024.01.23-20.08.31:399][750]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/AttachWeaponActor_AN_Auto4F143655B449AF82AD69DEFA4E21D1F9E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN_Auto4.uasset'
+[2024.01.23-20.08.31:399][750]LogFileHelpers: Auto-saving content packages took 0.222
+[2024.01.23-20.19.12:632][675]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.23-20.19.12:632][675]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.23-20.19.16:966][950]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.19.17:013][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.19.17:076][950]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.19.17:076][950]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter86B369444ACE21084D2F39BD13540839.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.19.17:085][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 4.10 sec)
+[2024.01.23-20.19.17:088][950]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.19.17:088][950]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.19.17:163][959]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.19.17:196][959]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.19.17:245][959]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.19.17:246][959]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter9A690BD6460C393D7EE78DBE76081F67.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.19.17:255][959]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 4.19 sec)
+[2024.01.23-20.19.17:257][959]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.19.17:257][959]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.19.18:904][ 91]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-20.19.18:911][ 91]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-20.19.18:911][ 91]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-20.19.18:911][ 91]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 766 us (total: 3 ms)
+[2024.01.23-20.19.18:912][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-20.19.18:912][ 91]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 14:19:18)
+[2024.01.23-20.19.18:912][ 91]LogPlayLevel: Display: Creating online subsystem for client :Context_19
+[2024.01.23-20.19.18:914][ 91]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.01.23-20.19.18:933][ 92]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.19.18:936][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003308s)
+[2024.01.23-20.19.18:936][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003364s)
+[2024.01.23-20.19.18:955][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.01.23-20.19.18:956][ 92]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.19.18:956][ 92]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-20.19.18:957][ 92]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-20.19.18:958][ 92]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-20.19.18:958][ 92]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-20.19.18:958][ 92]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-20.19.18:958][ 92]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-20.19.18:958][ 92]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-20.19.18:958][ 92]LogWorldPartition: Display: WorldPartition initialize took 792 us (total: 806 ms)
+[2024.01.23-20.19.18:958][ 92]LogPlayLevel: PIE: World Init took: (0.002132s)
+[2024.01.23-20.19.18:958][ 92]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.01.23-20.19.18:958][ 92]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-20.19.18:959][ 92]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-20.19.18:959][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-20.19.18:959][ 92]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-20.19.18:959][ 92]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-20.19.18:959][ 92]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-20.19.18:959][ 92]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-20.19.18:959][ 92]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-20.19.18:959][ 92]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-20.19.18:960][ 92]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-20.19.18:960][ 92]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-20.19.18:961][ 92]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-20.19.19:046][ 92]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-20.19.19:047][ 92]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-20.19.19:047][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-20.19.19:047][ 92]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-20.19.19:048][ 92]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.01.23-20.19.19:048][ 92]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.01.23-20.19.19:050][ 92]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.01.23-20.19.19:050][ 92]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.01.23-20.19.19:050][ 92]LogInit: FAudioDevice initialized with ID 6.
+[2024.01.23-20.19.19:050][ 92]LogAudio: Display: Audio Device (ID: 6) registered with world 'ThirdPersonMap'.
+[2024.01.23-20.19.19:050][ 92]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.23-20.19.19:116][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.19.19:116][ 92]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-20.19.19:117][ 92]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-17.19.19
+[2024.01.23-20.19.19:117][ 92]LogWorld: Bringing up level for play took: 0.001226
+[2024.01.23-20.19.19:122][ 92]PIE: Server logged in
+[2024.01.23-20.19.19:124][ 92]PIE: Play in editor total start time 0,213 seconds.
+[2024.01.23-20.19.19:143][ 92]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.23-20.19.20:798][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.19.20:798][176]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.19.20:798][176]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-20.19.20:805][176]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.19.20:805][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.19.20:805][176]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.19.20:807][176]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-20.19.20:812][176]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.19.20:827][176]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-20.19.20:827][176]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.01.23-20.19.20:827][176]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.23-20.19.20:829][176]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.01.23-20.19.20:837][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.01.23-20.19.20:917][177]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.01.23-20.19.21:910][237]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-20.19.21:915][237]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-20.19.21:915][237]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-20.19.21:916][237]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 820 us (total: 4 ms)
+[2024.01.23-20.19.21:916][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-20.19.21:916][237]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 14:19:21)
+[2024.01.23-20.19.21:916][237]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.01.23-20.19.21:918][237]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.01.23-20.19.21:938][238]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.19.21:940][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002493s)
+[2024.01.23-20.19.21:940][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002539s)
+[2024.01.23-20.19.21:956][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.23-20.19.21:958][238]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.19.21:958][238]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-20.19.21:959][238]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-20.19.21:959][238]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-20.19.21:959][238]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-20.19.21:959][238]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-20.19.21:959][238]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-20.19.21:960][238]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-20.19.21:960][238]LogWorldPartition: Display: WorldPartition initialize took 875 us (total: 807 ms)
+[2024.01.23-20.19.21:960][238]LogPlayLevel: PIE: World Init took: (0.001964s)
+[2024.01.23-20.19.21:960][238]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.23-20.19.21:960][238]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-20.19.21:960][238]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-20.19.21:960][238]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-20.19.21:960][238]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-20.19.21:960][238]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-20.19.21:960][238]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-20.19.21:960][238]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-20.19.21:960][238]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-20.19.21:961][238]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-20.19.21:961][238]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-20.19.21:961][238]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-20.19.21:963][238]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-20.19.22:045][238]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-20.19.22:045][238]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-20.19.22:045][238]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-20.19.22:045][238]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-20.19.22:046][238]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.01.23-20.19.22:046][238]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.01.23-20.19.22:047][238]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.01.23-20.19.22:047][238]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.01.23-20.19.22:048][238]LogInit: FAudioDevice initialized with ID 7.
+[2024.01.23-20.19.22:048][238]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonMap'.
+[2024.01.23-20.19.22:048][238]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.23-20.19.22:095][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.19.22:095][238]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-20.19.22:096][238]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-17.19.22
+[2024.01.23-20.19.22:096][238]LogWorld: Bringing up level for play took: 0.000989
+[2024.01.23-20.19.22:100][238]PIE: Server logged in
+[2024.01.23-20.19.22:102][238]PIE: Play in editor total start time 0,187 seconds.
+[2024.01.23-20.19.22:120][238]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.23-20.19.23:320][301]LogViewport: Scene viewport resized to 1920x1006, mode Windowed.
+[2024.01.23-20.19.50:896][243]LogDerivedDataCache: C:/Users/enzo.santos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:44.500 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 22820 files in 24422 folders with total size 1564 MiB.
+[2024.01.23-20.21.17:759][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.21.17:759][177]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.21.17:760][177]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-20.21.17:765][177]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.21.17:765][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.21.17:765][177]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.21.17:768][177]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-20.21.17:772][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.21.17:789][177]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.01.23-20.21.17:789][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.23-20.21.17:791][177]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.01.23-20.21.17:799][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.01.23-20.21.17:825][178]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.01.23-20.21.57:118][621]LogEditorTransaction: Undo Create Reroute Node
+[2024.01.23-20.22.22:404][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.23-20.22.22:407][536]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.018
+[2024.01.23-20.22.22:408][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon] ([2] browsable assets)...
+[2024.01.23-20.22.22:408][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon]
+[2024.01.23-20.22.22:420][536]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto5
+[2024.01.23-20.22.22:420][536]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_BaseWeapon_Auto59B39238C430F623FE7AEC688FF27CD53.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto5.uasset'
+[2024.01.23-20.22.22:420][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN] ([2] browsable assets)...
+[2024.01.23-20.22.22:420][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN]
+[2024.01.23-20.22.22:425][536]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN_Auto5
+[2024.01.23-20.22.22:425][536]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/ToggleCombat_AN_Auto5C31048334F04414A51285FB19E6C9935.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN_Auto5.uasset'
+[2024.01.23-20.22.22:425][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Components/BP_CollisionComponent] ([2] browsable assets)...
+[2024.01.23-20.22.22:425][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Components/BP_CollisionComponent]
+[2024.01.23-20.22.22:479][536]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Components/BP_CollisionComponent_Auto5
+[2024.01.23-20.22.22:479][536]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent_Auto518AF861742AFDD01918E5E96E24AEAED.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/Components/BP_CollisionComponent_Auto5.uasset'
+[2024.01.23-20.22.22:479][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN] ([2] browsable assets)...
+[2024.01.23-20.22.22:479][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN]
+[2024.01.23-20.22.22:483][536]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN_Auto5
+[2024.01.23-20.22.22:483][536]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/AttachWeaponActor_AN_Auto5D0D1DA9842321CF13FA26F9A1E7AAAFC.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN_Auto5.uasset'
+[2024.01.23-20.22.22:484][536]LogFileHelpers: Auto-saving content packages took 0.076
+[2024.01.23-20.22.48:997][684]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.22.49:049][684]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-20.22.49:049][684]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponent4467DBE347045A7225D8C68A3CCA46AF.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-20.22.49:057][684]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 4.25 sec)
+[2024.01.23-20.22.49:058][684]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-20.22.49:058][684]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-20.22.49:540][740]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-20.22.49:566][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.23-20.22.49:696][746]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-20.22.49:723][746]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2024.01.23-20.22.49:864][754]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-20.22.49:887][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.01.23-20.22.50:020][761]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-20.22.50:045][761]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.23-20.22.50:211][772]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-20.22.50:235][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.23-20.22.50:400][783]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-20.22.50:424][783]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.23-20.22.50:574][792]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-20.22.50:599][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.01.23-20.22.50:889][818]BlueprintLog: New page: Compile BP_CollisionComponent
+[2024.01.23-20.22.50:913][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.01.23-20.22.51:441][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.22.51:483][864]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent
+[2024.01.23-20.22.51:483][864]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CollisionComponentCF16115149A630FD5177EA9B2B7728BC.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CollisionComponent.uasset'
+[2024.01.23-20.22.51:492][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 4.30 sec)
+[2024.01.23-20.22.51:493][864]AssetCheck: New page: Asset Save: BP_CollisionComponent
+[2024.01.23-20.22.51:493][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_CollisionComponent.BP_CollisionComponent
+[2024.01.23-20.23.04:929][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.23.04:989][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.23.05:038][408]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.23.05:038][408]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter6E5160024BBB823DCF4FEF9C1ED1F78E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.23.05:047][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 4.42 sec)
+[2024.01.23-20.23.05:048][408]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.23.05:048][408]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.23.12:574][303]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.23.12:639][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.23.12:687][303]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.23.12:688][303]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter46B769864AC2686032D12BAEFC34CB5E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.23.12:696][303]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 4.54 sec)
+[2024.01.23-20.23.12:697][303]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.23.12:697][303]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.24.12:376][378]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.24.12:481][379]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.24.12:523][380]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.24.13:114][417]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.24.26:748][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.01.23-20.24.28:016][876]LogSlate: Window 'Save Content' being destroyed
+[2024.01.23-20.24.28:026][876]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.24.28:079][876]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN
+[2024.01.23-20.24.28:079][876]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/AttachWeaponActor_AN518613C642215069F615DB8CD2812CEC.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN.uasset'
+[2024.01.23-20.24.28:080][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Actors/BP_BaseWeapon.uasset" SILENT=true
+[2024.01.23-20.24.28:092][876]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon
+[2024.01.23-20.24.28:092][876]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_BaseWeaponFB2EF82342BBEAD3366676A37F811B52.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Actors/BP_BaseWeapon.uasset'
+[2024.01.23-20.24.28:097][876]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN
+[2024.01.23-20.24.28:098][876]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/ToggleCombat_AN23CEFACE49A991DC3CEDA0A5EA91DE32.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN.uasset'
+[2024.01.23-20.24.28:107][876]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 4.62 sec)
+[2024.01.23-20.24.28:140][876]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.23-20.24.28:140][876]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/AnimNotifies/AttachWeaponActor_AN.AttachWeaponActor_AN
+[2024.01.23-20.24.28:140][876]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon.BP_BaseWeapon
+[2024.01.23-20.24.28:140][876]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/AnimNotifies/ToggleCombat_AN.ToggleCombat_AN
+[2024.01.23-20.24.53:944][769]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-20.24.53:950][769]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-20.24.53:950][769]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-20.24.53:951][769]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 719 us (total: 4 ms)
+[2024.01.23-20.24.53:951][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-20.24.53:951][769]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 14:24:53)
+[2024.01.23-20.24.53:951][769]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2024.01.23-20.24.53:954][769]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.01.23-20.24.53:971][770]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.24.53:974][770]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002627s)
+[2024.01.23-20.24.53:974][770]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002667s)
+[2024.01.23-20.24.53:989][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.01.23-20.24.53:991][770]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.24.53:991][770]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-20.24.53:991][770]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-20.24.53:992][770]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-20.24.53:992][770]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-20.24.53:992][770]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-20.24.53:992][770]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-20.24.53:993][770]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-20.24.53:993][770]LogWorldPartition: Display: WorldPartition initialize took 810 us (total: 807 ms)
+[2024.01.23-20.24.53:993][770]LogPlayLevel: PIE: World Init took: (0.001915s)
+[2024.01.23-20.24.53:993][770]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.01.23-20.24.53:993][770]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-20.24.53:993][770]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-20.24.53:993][770]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-20.24.53:993][770]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-20.24.53:993][770]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-20.24.53:993][770]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-20.24.53:993][770]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-20.24.53:993][770]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-20.24.53:994][770]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-20.24.53:994][770]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-20.24.53:994][770]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-20.24.53:995][770]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-20.24.54:079][770]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-20.24.54:079][770]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-20.24.54:079][770]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-20.24.54:079][770]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-20.24.54:080][770]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.01.23-20.24.54:080][770]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.01.23-20.24.54:082][770]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.01.23-20.24.54:082][770]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.01.23-20.24.54:082][770]LogInit: FAudioDevice initialized with ID 8.
+[2024.01.23-20.24.54:082][770]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonMap'.
+[2024.01.23-20.24.54:082][770]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.23-20.24.54:142][770]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.24.54:142][770]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-20.24.54:143][770]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-17.24.54
+[2024.01.23-20.24.54:144][770]LogWorld: Bringing up level for play took: 0.000865
+[2024.01.23-20.24.54:148][770]PIE: Server logged in
+[2024.01.23-20.24.54:150][770]PIE: Play in editor total start time 0,199 seconds.
+[2024.01.23-20.24.54:184][770]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.23-20.24.56:239][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.24.56:239][841]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.24.56:239][841]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-20.24.56:250][841]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.24.56:251][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.24.56:251][841]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.24.56:253][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-20.24.56:258][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.24.56:272][841]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.01.23-20.24.56:272][841]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.23-20.24.56:274][841]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.01.23-20.24.56:280][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.01.23-20.24.56:361][842]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.01.23-20.25.02:272][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.25.02:322][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.25.02:371][442]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.25.02:371][442]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterFCEFE7824899A4B9652FD4834CD3C55B.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.25.02:383][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 4.73 sec)
+[2024.01.23-20.25.02:385][442]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.25.02:385][442]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.25.03:161][520]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.23-20.25.03:235][520]LogUObjectHash: Compacting FUObjectHashTables data took  13.19ms
+[2024.01.23-20.25.04:365][611]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.25.04:467][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.25.04:515][611]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.25.04:515][611]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter0AC0A5BD4AF6F0C17FCC8B8A940BF7C3.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.25.04:524][611]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 4.89 sec)
+[2024.01.23-20.25.04:526][611]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.25.04:526][611]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.25.06:008][719]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-20.25.06:014][719]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-20.25.06:014][719]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-20.25.06:015][719]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 701 us (total: 5 ms)
+[2024.01.23-20.25.06:015][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-20.25.06:015][719]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 14:25:06)
+[2024.01.23-20.25.06:015][719]LogPlayLevel: Display: Creating online subsystem for client :Context_26
+[2024.01.23-20.25.06:017][719]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.01.23-20.25.06:036][720]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.25.06:038][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002476s)
+[2024.01.23-20.25.06:038][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002518s)
+[2024.01.23-20.25.06:052][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.23-20.25.06:053][720]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.25.06:054][720]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-20.25.06:054][720]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-20.25.06:054][720]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-20.25.06:054][720]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-20.25.06:054][720]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-20.25.06:054][720]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-20.25.06:055][720]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-20.25.06:055][720]LogWorldPartition: Display: WorldPartition initialize took 809 us (total: 808 ms)
+[2024.01.23-20.25.06:055][720]LogPlayLevel: PIE: World Init took: (0.001848s)
+[2024.01.23-20.25.06:055][720]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.01.23-20.25.06:055][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-20.25.06:055][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-20.25.06:055][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-20.25.06:055][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-20.25.06:055][720]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-20.25.06:055][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-20.25.06:055][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-20.25.06:056][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-20.25.06:056][720]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-20.25.06:056][720]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-20.25.06:056][720]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-20.25.06:058][720]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-20.25.06:140][720]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-20.25.06:140][720]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-20.25.06:140][720]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-20.25.06:140][720]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-20.25.06:141][720]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.01.23-20.25.06:141][720]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.01.23-20.25.06:143][720]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.01.23-20.25.06:143][720]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.01.23-20.25.06:143][720]LogInit: FAudioDevice initialized with ID 9.
+[2024.01.23-20.25.06:143][720]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonMap'.
+[2024.01.23-20.25.06:143][720]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.23-20.25.06:177][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.25.06:177][720]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-20.25.06:178][720]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-17.25.06
+[2024.01.23-20.25.06:178][720]LogWorld: Bringing up level for play took: 0.000863
+[2024.01.23-20.25.06:182][720]PIE: Server logged in
+[2024.01.23-20.25.06:184][720]PIE: Play in editor total start time 0,17 seconds.
+[2024.01.23-20.25.06:190][720]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.23-20.25.16:528][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.25.16:528][ 93]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.25.16:529][ 93]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-20.25.16:538][ 93]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.25.16:539][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.25.16:539][ 93]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.25.16:541][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-20.25.16:545][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.25.16:577][ 93]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-20.25.16:577][ 93]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.01.23-20.25.16:577][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.23-20.25.16:578][ 93]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.01.23-20.25.16:586][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.01.23-20.25.16:685][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.01.23-20.25.22:830][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.25.22:902][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.25.22:951][712]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.25.22:951][712]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter9ABFD9C94726DACC9CE50CA4AF6E70DA.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.25.22:963][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 5.02 sec)
+[2024.01.23-20.25.22:964][712]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.25.22:964][712]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.25.23:189][734]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.23-20.25.23:271][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.01.23-20.25.23:848][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.25.23:950][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.25.23:999][762]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.25.23:999][762]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterD9553F3D4F107F3F4DD6CBB3A59BE7B8.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.25.24:007][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 5.18 sec)
+[2024.01.23-20.25.24:009][762]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.25.24:009][762]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.25.25:167][845]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-20.25.25:173][845]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-20.25.25:173][845]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-20.25.25:173][845]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 683 us (total: 6 ms)
+[2024.01.23-20.25.25:173][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-20.25.25:173][845]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 14:25:25)
+[2024.01.23-20.25.25:174][845]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2024.01.23-20.25.25:175][845]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.01.23-20.25.25:194][846]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.25.25:196][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002503s)
+[2024.01.23-20.25.25:196][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002545s)
+[2024.01.23-20.25.25:212][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.23-20.25.25:213][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.25.25:213][846]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-20.25.25:214][846]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-20.25.25:214][846]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-20.25.25:214][846]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-20.25.25:214][846]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-20.25.25:214][846]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-20.25.25:215][846]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-20.25.25:215][846]LogWorldPartition: Display: WorldPartition initialize took 719 us (total: 809 ms)
+[2024.01.23-20.25.25:215][846]LogPlayLevel: PIE: World Init took: (0.001715s)
+[2024.01.23-20.25.25:215][846]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.01.23-20.25.25:215][846]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-20.25.25:215][846]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-20.25.25:215][846]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-20.25.25:215][846]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-20.25.25:215][846]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-20.25.25:215][846]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-20.25.25:215][846]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-20.25.25:215][846]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-20.25.25:216][846]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-20.25.25:216][846]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-20.25.25:216][846]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-20.25.25:218][846]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-20.25.25:299][846]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-20.25.25:300][846]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-20.25.25:300][846]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-20.25.25:300][846]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-20.25.25:300][846]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.01.23-20.25.25:300][846]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.01.23-20.25.25:302][846]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.01.23-20.25.25:302][846]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.01.23-20.25.25:302][846]LogInit: FAudioDevice initialized with ID 10.
+[2024.01.23-20.25.25:302][846]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonMap'.
+[2024.01.23-20.25.25:302][846]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.23-20.25.25:361][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.25.25:361][846]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-20.25.25:362][846]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-17.25.25
+[2024.01.23-20.25.25:362][846]LogWorld: Bringing up level for play took: 0.001040
+[2024.01.23-20.25.25:367][846]PIE: Server logged in
+[2024.01.23-20.25.25:368][846]PIE: Play in editor total start time 0,196 seconds.
+[2024.01.23-20.25.25:375][846]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.23-20.25.29:168][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.25.29:168][981]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.25.29:169][981]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-20.25.29:177][981]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.25.29:178][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.25.29:178][981]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.25.29:180][981]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-20.25.29:184][981]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.25.29:200][981]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-20.25.29:201][981]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.01.23-20.25.29:201][981]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.23-20.25.29:202][981]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.01.23-20.25.29:209][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.23-20.25.29:279][982]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.01.23-20.25.33:977][446]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.23-20.25.34:037][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.23-20.25.34:791][502]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.25.34:882][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.25.34:937][502]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.25.34:937][502]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter5D826ADF4EBC97833C6C5CA004FC1220.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.25.34:948][502]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 5.34 sec)
+[2024.01.23-20.25.34:949][502]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.25.34:949][502]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.25.36:359][595]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-20.25.36:365][595]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-20.25.36:365][595]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-20.25.36:366][595]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 776 us (total: 7 ms)
+[2024.01.23-20.25.36:366][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-20.25.36:366][595]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 14:25:36)
+[2024.01.23-20.25.36:366][595]LogPlayLevel: Display: Creating online subsystem for client :Context_28
+[2024.01.23-20.25.36:368][595]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.01.23-20.25.36:386][596]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.25.36:389][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002918s)
+[2024.01.23-20.25.36:389][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002978s)
+[2024.01.23-20.25.36:417][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.01.23-20.25.36:419][596]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.25.36:419][596]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-20.25.36:419][596]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-20.25.36:420][596]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-20.25.36:420][596]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-20.25.36:420][596]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-20.25.36:420][596]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-20.25.36:420][596]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-20.25.36:421][596]LogWorldPartition: Display: WorldPartition initialize took 710 us (total: 810 ms)
+[2024.01.23-20.25.36:421][596]LogPlayLevel: PIE: World Init took: (0.001710s)
+[2024.01.23-20.25.36:421][596]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.01.23-20.25.36:421][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-20.25.36:421][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-20.25.36:421][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-20.25.36:421][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-20.25.36:421][596]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-20.25.36:421][596]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-20.25.36:421][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-20.25.36:421][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-20.25.36:421][596]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-20.25.36:421][596]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-20.25.36:421][596]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-20.25.36:423][596]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-20.25.36:504][596]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-20.25.36:504][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-20.25.36:504][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-20.25.36:504][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-20.25.36:506][596]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.01.23-20.25.36:506][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.01.23-20.25.36:507][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.01.23-20.25.36:507][596]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.01.23-20.25.36:507][596]LogInit: FAudioDevice initialized with ID 11.
+[2024.01.23-20.25.36:507][596]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonMap'.
+[2024.01.23-20.25.36:507][596]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.23-20.25.36:561][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.25.36:562][596]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-20.25.36:562][596]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-17.25.36
+[2024.01.23-20.25.36:563][596]LogWorld: Bringing up level for play took: 0.000868
+[2024.01.23-20.25.36:567][596]PIE: Server logged in
+[2024.01.23-20.25.36:568][596]PIE: Play in editor total start time 0,203 seconds.
+[2024.01.23-20.25.36:575][596]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.23-20.25.39:149][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.25.39:149][685]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.25.39:149][685]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-20.25.39:155][685]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.25.39:155][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.25.39:155][685]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.25.39:157][685]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-20.25.39:162][685]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.25.39:177][685]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-20.25.39:177][685]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.01.23-20.25.39:177][685]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.23-20.25.39:179][685]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.01.23-20.25.39:185][685]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.23-20.25.39:251][686]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.01.23-20.26.14:860][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.26.14:947][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.26.14:997][596]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.26.14:997][596]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter11BA5A6E4DEDC9FEE76922BC5C9C9279.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.26.15:008][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 5.49 sec)
+[2024.01.23-20.26.15:010][596]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.26.15:010][596]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.26.15:743][670]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.23-20.26.15:821][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.01.23-20.26.16:618][723]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.26.16:721][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.26.16:770][723]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.26.16:770][723]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter2DD597454EADE9FE0B064B8440D78DEA.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.26.16:779][723]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 5.64 sec)
+[2024.01.23-20.26.16:780][723]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.26.16:780][723]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.26.21:742][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.26.21:793][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.26.21:843][267]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.26.21:843][267]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterBFD1B89647CC053DDB2AC9B864364D90.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.26.21:854][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 5.76 sec)
+[2024.01.23-20.26.21:857][267]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.26.21:857][267]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.26.29:274][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.26.29:368][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.26.29:434][ 82]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.26.29:434][ 82]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterCE4AE8A64F4786FB46F63C97751C58B9.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.26.29:446][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 5.93 sec)
+[2024.01.23-20.26.29:448][ 82]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.26.29:448][ 82]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.26.30:033][149]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.23-20.26.30:107][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.01.23-20.26.30:703][190]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.26.30:804][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.26.30:854][190]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.26.30:854][190]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter2A945442462F256EC1608D9119CA9F62.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.26.30:864][190]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 6.09 sec)
+[2024.01.23-20.26.30:866][190]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.26.30:866][190]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.26.32:017][270]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-20.26.32:023][270]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-20.26.32:023][270]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-20.26.32:024][270]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 696 us (total: 7 ms)
+[2024.01.23-20.26.32:024][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-20.26.32:024][270]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 14:26:32)
+[2024.01.23-20.26.32:024][270]LogPlayLevel: Display: Creating online subsystem for client :Context_29
+[2024.01.23-20.26.32:026][270]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.01.23-20.26.32:043][271]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.26.32:046][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002486s)
+[2024.01.23-20.26.32:046][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002525s)
+[2024.01.23-20.26.32:080][271]LogUObjectHash: Compacting FUObjectHashTables data took   8.80ms
+[2024.01.23-20.26.32:081][271]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.26.32:081][271]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-20.26.32:082][271]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-20.26.32:082][271]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-20.26.32:082][271]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-20.26.32:082][271]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-20.26.32:082][271]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-20.26.32:083][271]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-20.26.32:083][271]LogWorldPartition: Display: WorldPartition initialize took 720 us (total: 810 ms)
+[2024.01.23-20.26.32:083][271]LogPlayLevel: PIE: World Init took: (0.001710s)
+[2024.01.23-20.26.32:083][271]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.01.23-20.26.32:083][271]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-20.26.32:083][271]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-20.26.32:083][271]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-20.26.32:083][271]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-20.26.32:083][271]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-20.26.32:083][271]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-20.26.32:083][271]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-20.26.32:083][271]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-20.26.32:084][271]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-20.26.32:084][271]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-20.26.32:084][271]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-20.26.32:086][271]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-20.26.32:167][271]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-20.26.32:168][271]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-20.26.32:168][271]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-20.26.32:168][271]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-20.26.32:169][271]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.01.23-20.26.32:169][271]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.01.23-20.26.32:171][271]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.01.23-20.26.32:171][271]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.01.23-20.26.32:171][271]LogInit: FAudioDevice initialized with ID 12.
+[2024.01.23-20.26.32:171][271]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonMap'.
+[2024.01.23-20.26.32:171][271]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.23-20.26.32:230][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.26.32:230][271]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-20.26.32:231][271]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-17.26.32
+[2024.01.23-20.26.32:231][271]LogWorld: Bringing up level for play took: 0.001085
+[2024.01.23-20.26.32:235][271]PIE: Server logged in
+[2024.01.23-20.26.32:237][271]PIE: Play in editor total start time 0,214 seconds.
+[2024.01.23-20.26.32:243][271]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.23-20.26.42:329][632]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.26.42:329][632]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.26.42:329][632]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-20.26.42:335][632]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.26.42:335][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.26.42:335][632]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.26.42:338][632]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-20.26.42:343][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.26.42:359][632]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-20.26.42:359][632]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.01.23-20.26.42:359][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.23-20.26.42:361][632]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.01.23-20.26.42:367][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.23-20.26.42:440][633]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.01.23-20.26.46:516][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.26.46:576][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.26.46:626][ 10]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.26.46:626][ 10]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterDBCD289147F91455DD4FFE85952CD811.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.26.46:637][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 6.21 sec)
+[2024.01.23-20.26.46:638][ 10]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.26.46:638][ 10]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.26.47:127][ 66]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.23-20.26.47:194][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.23-20.26.47:547][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.26.47:637][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.26.47:685][ 71]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.26.47:685][ 71]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterF4A229C3467A80D8650416B9C0A76F1B.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.26.47:694][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 6.36 sec)
+[2024.01.23-20.26.47:696][ 71]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.26.47:696][ 71]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.26.48:725][143]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-20.26.48:731][143]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-20.26.48:731][143]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-20.26.48:732][143]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 677 us (total: 8 ms)
+[2024.01.23-20.26.48:732][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-20.26.48:732][143]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 14:26:48)
+[2024.01.23-20.26.48:732][143]LogPlayLevel: Display: Creating online subsystem for client :Context_30
+[2024.01.23-20.26.48:734][143]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.01.23-20.26.48:752][144]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.26.48:755][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002493s)
+[2024.01.23-20.26.48:755][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002541s)
+[2024.01.23-20.26.48:771][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.01.23-20.26.48:773][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.26.48:773][144]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-20.26.48:773][144]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-20.26.48:773][144]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-20.26.48:773][144]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-20.26.48:773][144]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-20.26.48:774][144]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-20.26.48:774][144]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-20.26.48:774][144]LogWorldPartition: Display: WorldPartition initialize took 799 us (total: 811 ms)
+[2024.01.23-20.26.48:774][144]LogPlayLevel: PIE: World Init took: (0.001815s)
+[2024.01.23-20.26.48:774][144]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.01.23-20.26.48:774][144]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-20.26.48:774][144]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-20.26.48:774][144]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-20.26.48:774][144]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-20.26.48:774][144]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-20.26.48:774][144]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-20.26.48:774][144]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-20.26.48:774][144]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-20.26.48:775][144]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-20.26.48:775][144]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-20.26.48:775][144]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-20.26.48:777][144]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-20.26.48:859][144]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-20.26.48:860][144]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-20.26.48:860][144]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-20.26.48:860][144]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-20.26.48:860][144]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.01.23-20.26.48:861][144]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.01.23-20.26.48:862][144]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.01.23-20.26.48:862][144]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.01.23-20.26.48:862][144]LogInit: FAudioDevice initialized with ID 13.
+[2024.01.23-20.26.48:862][144]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2024.01.23-20.26.48:862][144]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.23-20.26.48:920][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.26.48:920][144]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-20.26.48:921][144]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-17.26.48
+[2024.01.23-20.26.48:921][144]LogWorld: Bringing up level for play took: 0.000829
+[2024.01.23-20.26.48:925][144]PIE: Server logged in
+[2024.01.23-20.26.48:926][144]PIE: Play in editor total start time 0,195 seconds.
+[2024.01.23-20.26.48:959][144]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.23-20.26.57:588][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.26.57:588][457]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.26.57:589][457]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-20.26.57:597][457]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.26.57:597][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.26.57:597][457]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.26.57:599][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-20.26.57:603][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.26.57:618][457]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-20.26.57:618][457]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.23-20.26.57:618][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.23-20.26.57:620][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.23-20.26.57:627][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.01.23-20.26.57:688][458]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.01.23-20.27.01:323][812]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.27.01:374][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.27.01:423][812]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.27.01:423][812]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterA29F61C94A17F036B4E494A508F62A50.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.27.01:434][812]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 6.47 sec)
+[2024.01.23-20.27.01:435][812]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.27.01:435][812]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.27.02:009][879]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.23-20.27.02:065][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.23-20.27.02:830][937]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-20.27.02:902][937]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.23-20.27.02:951][937]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.23-20.27.02:952][937]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterAB16090A4856F34BEB50CD846D94030A.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.23-20.27.02:961][937]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 6.60 sec)
+[2024.01.23-20.27.02:963][937]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.23-20.27.02:963][937]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.23-20.27.03:921][  7]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.23-20.27.03:927][  7]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.23-20.27.03:927][  7]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.23-20.27.03:927][  7]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 678 us (total: 9 ms)
+[2024.01.23-20.27.03:928][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-20.27.03:928][  7]PIE: New page: PIE session: ThirdPersonMap (23 de jan de 2024 14:27:03)
+[2024.01.23-20.27.03:928][  7]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2024.01.23-20.27.03:930][  7]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.01.23-20.27.03:948][  8]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.27.03:950][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002474s)
+[2024.01.23-20.27.03:951][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002515s)
+[2024.01.23-20.27.03:963][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.01.23-20.27.03:965][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-20.27.03:965][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-20.27.03:965][  8]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.23-20.27.03:966][  8]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.23-20.27.03:966][  8]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.23-20.27.03:966][  8]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.23-20.27.03:966][  8]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.23-20.27.03:966][  8]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.23-20.27.03:966][  8]LogWorldPartition: Display: WorldPartition initialize took 737 us (total: 812 ms)
+[2024.01.23-20.27.03:966][  8]LogPlayLevel: PIE: World Init took: (0.001695s)
+[2024.01.23-20.27.03:966][  8]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.01.23-20.27.03:966][  8]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-20.27.03:966][  8]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-20.27.03:966][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-20.27.03:966][  8]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-20.27.03:966][  8]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-20.27.03:966][  8]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-20.27.03:966][  8]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-20.27.03:966][  8]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-20.27.03:967][  8]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-20.27.03:967][  8]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-20.27.03:967][  8]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-20.27.03:969][  8]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-20.27.04:051][  8]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.23-20.27.04:051][  8]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-20.27.04:051][  8]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-20.27.04:051][  8]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-20.27.04:052][  8]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.01.23-20.27.04:052][  8]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.01.23-20.27.04:053][  8]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.01.23-20.27.04:053][  8]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.01.23-20.27.04:053][  8]LogInit: FAudioDevice initialized with ID 14.
+[2024.01.23-20.27.04:053][  8]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2024.01.23-20.27.04:053][  8]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.23-20.27.04:130][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.27.04:130][  8]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.23-20.27.04:131][  8]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.23-17.27.04
+[2024.01.23-20.27.04:131][  8]LogWorld: Bringing up level for play took: 0.000905
+[2024.01.23-20.27.04:135][  8]PIE: Server logged in
+[2024.01.23-20.27.04:137][  8]PIE: Play in editor total start time 0,21 seconds.
+[2024.01.23-20.27.04:143][  8]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.23-20.27.13:478][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-20.27.13:478][363]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.23-20.27.13:479][363]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.23-20.27.13:484][363]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.27.13:484][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.27.13:484][363]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.27.13:487][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-20.27.13:492][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.27.13:507][363]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-20.27.13:508][363]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.23-20.27.13:508][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.23-20.27.13:509][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.23-20.27.13:516][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.23-20.27.13:572][364]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.01.23-20.27.58:015][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.23-20.27.58:027][192]LogStall: Shutdown...
+[2024.01.23-20.27.58:090][192]LogStall: Shutdown complete.
+[2024.01.23-20.27.58:160][192]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.27.58:160][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.27.58:202][192]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.27.58:202][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.27.58:433][192]LogSlate: Window 'SoulsLikeGame - Unreal Editor' being destroyed
+[2024.01.23-20.27.58:792][193]Cmd: QUIT_EDITOR
+[2024.01.23-20.27.58:792][193]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.01.23-20.27.58:839][193]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.01.23-20.27.58:857][193]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.01.23-20.27.58:858][193]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.01.23-20.27.58:965][193]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.27.58:965][193]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-20.27.58:990][193]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.23-20.27.59:268][193]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.01.23-20.28.00:558][193]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.01.23-20.28.00:559][193]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.01.23-20.28.00:559][193]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2024.01.23-20.28.00:559][193]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.01.23-20.28.00:559][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.23-20.28.00:581][193]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.23-20.28.00:626][193]LogAudio: Display: Audio Device Manager Shutdown
+[2024.01.23-20.28.00:626][193]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.23-20.28.00:728][193]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.01.23-20.28.00:770][193]LogExit: Preparing to exit.
+[2024.01.23-20.28.01:353][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.01.23-20.28.01:363][193]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:364][193]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:384][193]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:385][193]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:385][193]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:385][193]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:385][193]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:385][193]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:385][193]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:385][193]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.01:385][193]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.23-20.28.02:807][193]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:810][193]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:814][193]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:816][193]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:819][193]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:822][193]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:824][193]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:830][193]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:832][193]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:834][193]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:837][193]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.02:839][193]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-20.28.03:930][193]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.01.23-20.28.04:441][193]LogExit: Editor shut down
+[2024.01.23-20.28.04:526][193]LogExit: Transaction tracking system shut down
+[2024.01.23-20.28.10:553][193]LogExit: Object subsystem successfully closed.
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: ================================================
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: Total job queries 10, among them cache hits 2 (20.00%)
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: Tracking 8 distinct input hashes that result in 8 distinct outputs (100.00%)
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: RAM used: 165,99 KiB of 819,20 MiB budget. Usage: 0.02%
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.23-20.28.10:562][193]LogShaderCompilers: Display: ================================================
+[2024.01.23-20.28.10:627][193]LogShaderCompilers: Display: Shaders left to compile 0
