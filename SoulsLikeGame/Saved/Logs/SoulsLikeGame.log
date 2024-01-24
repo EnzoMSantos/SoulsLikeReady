@@ -3559,3 +3559,6 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.01.23-20.28.22:979][193]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
 [2024.01.23-20.28.22:979][193]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
 [2024.01.23-20.28.22:985][193]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.01.23-20.28.25:683][193]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.01.23-20.28.25:862][193]LogExit: Exiting.
+[2024.01.23-20.28.25:994][193]Log file closed, 01/23/24 17:28:25
