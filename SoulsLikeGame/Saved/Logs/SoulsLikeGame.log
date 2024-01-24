@@ -6046,3 +6046,14 @@ Script call stack:
 [2024.01.24-20.26.15:772][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 28.8 sec)
 [2024.01.24-20.26.15:774][701]AssetCheck: New page: Asset Save: BP_CombatCharacter
 [2024.01.24-20.26.15:774][701]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.24-20.26.48:242][124]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.24-20.26.48:325][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.01.24-20.26.48:711][125]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.24-20.26.48:790][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.01.24-20.26.49:422][145]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-20.26.49:586][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.24-20.26.49:654][145]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.24-20.26.49:655][145]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter6B34ED9F40B5DB59C6EBC7A1D7B0CFAE.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.24-20.26.49:666][145]LogFileHelpers: InternalPromptForCheckoutAndSave took 244 ms (total: 29.0 sec)
+[2024.01.24-20.26.49:668][145]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.24-20.26.49:668][145]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
