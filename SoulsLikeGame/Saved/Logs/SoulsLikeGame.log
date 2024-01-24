@@ -2452,3 +2452,58 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.01.24-19.02.53:789][118]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloorComponent) Not registered. Aborting.
 [2024.01.24-19.02.53:789][118]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
 [2024.01.24-19.02.53:789][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-19.05.14:333][864]LogDirectoryWatcher: Display: A directory notification failed for 'D:/SoulsLikeReady/SoulsLikeGame/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2024.01.24-19.05.14:333][864]LogDirectoryWatcher: Display: A directory notification failed for 'D:/SoulsLikeReady/SoulsLikeGame/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2024.01.24-19.05.14:333][864]LogDirectoryWatcher: Display: A directory notification failed for 'D:/SoulsLikeReady/SoulsLikeGame/Content/Developers/enzosantos/Collections/' because it could not be accessed. Aborting watch request...
+[2024.01.24-19.05.30:219][172]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/Realistic_Starter_VFX_Pack_Vol2/Particles/Blood/P_Blood_Splat_Cone.P_Blood_Splat_Cone
+[2024.01.24-19.05.30:220][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-19.05.30:220][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-19.05.30:227][172]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-19.05.30:246][172]LogTexture: Display: Building textures: /Game/Realistic_Starter_VFX_Pack_Vol2/Textures/T_Dirt_C.T_Dirt_C (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.01.24-19.05.30:246][172]LogTexture: Display: Building textures: /Game/Realistic_Starter_VFX_Pack_Vol2/Textures/T_Smoke_B.T_Smoke_B (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.645795 MB), EncodeSpeed: Fast
+[2024.01.24-19.05.30:246][172]LogTexture: Display: Building textures: /Game/Realistic_Starter_VFX_Pack_Vol2/Textures/T_Splash_A.T_Splash_A (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.01.24-19.05.30:331][172]LogViewport: Scene viewport resized to 572x423, mode Windowed.
+[2024.01.24-19.05.30:367][172]LogViewport: Scene viewport resized to 1335x513, mode Windowed.
+[2024.01.24-19.05.30:425][172]LogViewport: Scene viewport resized to 1335x259, mode Windowed.
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: ================================================
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Total job queries 54, among them cache hits 16 (29.63%)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Tracking 22 distinct input hashes that result in 20 distinct outputs (90.91%)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: RAM used: 478,77 KiB of 819,20 MiB budget. Usage: 0.06%
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Shaders Compiled: 14
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Jobs assigned 22, completed 14 (63.64%)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Average time worker was idle: 3548.29 s
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Time job spent in pending queue: average 0.48 s, longest 2.31 s
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Job execution time: average 1.49 s, max 2.57 s
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Job life time (pending + execution): average 2.03 s, max 2.64
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Shader code size: average 33,933 KiB, min 3,699 KiB, max 68,852 KiB
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.45 s
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Average processing rate: 3.15 jobs/sec
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Total thread time: 4,978 s
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Total thread preprocess time: 0,753 s
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Percentage time preprocessing: 15.12%
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Effective parallelization: 1.12 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.41 sec, max 0.41 sec, min 0.41 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.39 sec, max 0.52 sec, min 0.24 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 23.71% of total time (compiled    3 times, average 0.39 sec, max 0.52 sec, min 0.24 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.22% of total time (compiled    2 times, average 0.33 sec, max 0.38 sec, min 0.28 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 10.77% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 8.23% of total time (compiled    1 times, average 0.41 sec, max 0.41 sec, min 0.41 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.30% of total time (compiled    1 times, average 0.36 sec, max 0.36 sec, min 0.36 sec)
+[2024.01.24-19.05.31:585][298]LogShaderCompilers: Display: ================================================
+[2024.01.24-19.06.15:444][872]LogCascade: Quitting Cascade. FXSystem=0x0000057C67933780
+[2024.01.24-19.06.15:456][872]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-19.06.15:456][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-19.06.41:404][ 56]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.24-19.06.41:556][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2024.01.24-19.06.41:746][ 56]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.24-19.06.41:842][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.24-19.06.42:176][ 70]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.24-19.06.42:249][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
