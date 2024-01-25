@@ -4423,3 +4423,951 @@ Script call stack:
 [2024.01.25-18.46.39:351][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
 [2024.01.25-18.46.39:358][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
 [2024.01.25-18.46.39:400][735]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2024.01.25-18.48.14:120][191]LogViewport: Scene viewport resized to 462x282, mode Windowed.
+[2024.01.25-18.48.39:046][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-18.48.39:137][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.01.25-18.48.39:156][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.01.25-18.48.39:174][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.01.25-18.48.39:201][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/ThirdPersonMap/9/NW/O3E2VMQWL2D37SLH47FWHP
+[2024.01.25-18.48.39:201][233]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/O3E2VMQWL2D37SLH47FWHP1460EEC349D57E0340F501A0CCCFC979.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/__ExternalActors__/Maps/ThirdPersonMap/9/NW/O3E2VMQWL2D37SLH47FWHP.uasset'
+[2024.01.25-18.48.39:203][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/ThirdPersonMap/9/V4/4DZ5Z0J3RYWS67O4NF6G52
+[2024.01.25-18.48.39:203][233]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/4DZ5Z0J3RYWS67O4NF6G524FD112754C07B08CE4952EA5962E8D99.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/__ExternalActors__/Maps/ThirdPersonMap/9/V4/4DZ5Z0J3RYWS67O4NF6G52.uasset'
+[2024.01.25-18.48.39:224][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Maps/ThirdPersonMap/C/WQ/ZNB5Q02NKZDVHZVMOVGDA3
+[2024.01.25-18.48.39:224][233]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/ZNB5Q02NKZDVHZVMOVGDA330EFB2CC42B62EA84177C686ACA0BB5E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/__ExternalActors__/Maps/ThirdPersonMap/C/WQ/ZNB5Q02NKZDVHZVMOVGDA3.uasset'
+[2024.01.25-18.48.39:233][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 19.1 sec)
+[2024.01.25-18.48.39:295][233]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.25-18.48.39:295][233]LogContentValidation: Display: Validating /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PickupActor_C_UAID_F4B52057818C7ECE01_1687605872
+[2024.01.25-18.48.39:295][233]LogContentValidation: Display: Validating /Game/CombatSystem/Blueprints/Actors/BP_PickupActor.BP_PickupActor_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_PickupActor_C_UAID_F4B52057818C7DCE01_1332909695
+[2024.01.25-18.48.39:295][233]LogContentValidation: Display: Validating /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C /Game/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959
+[2024.01.25-18.48.40:751][323]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.25-18.48.40:757][323]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.25-18.48.40:757][323]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.25-18.48.40:758][323]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 834 us (total: 37 ms)
+[2024.01.25-18.48.40:758][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.25-18.48.40:758][323]PIE: New page: PIE session: ThirdPersonMap (25 de jan de 2024 12:48:40)
+[2024.01.25-18.48.40:758][323]LogPlayLevel: Display: Creating online subsystem for client :Context_55
+[2024.01.25-18.48.40:760][323]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2024.01.25-18.48.40:776][324]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-18.48.40:780][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003719s)
+[2024.01.25-18.48.40:780][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003766s)
+[2024.01.25-18.48.40:796][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.25-18.48.40:799][324]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-18.48.40:799][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-18.48.40:799][324]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.25-18.48.40:799][324]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.25-18.48.40:799][324]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-18.48.40:799][324]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-18.48.40:799][324]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.25-18.48.40:800][324]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.25-18.48.40:800][324]LogWorldPartition: Display: WorldPartition initialize took 877 us (total: 1.25 sec)
+[2024.01.25-18.48.40:800][324]LogPlayLevel: PIE: World Init took: (0.001912s)
+[2024.01.25-18.48.40:800][324]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2024.01.25-18.48.40:800][324]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.25-18.48.40:800][324]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.25-18.48.40:800][324]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.25-18.48.40:800][324]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.25-18.48.40:800][324]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.25-18.48.40:800][324]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.25-18.48.40:800][324]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.25-18.48.40:801][324]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.25-18.48.40:801][324]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.25-18.48.40:801][324]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.25-18.48.40:801][324]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.25-18.48.40:803][324]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.25-18.48.40:886][324]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.25-18.48.40:886][324]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.25-18.48.40:887][324]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.25-18.48.40:887][324]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.25-18.48.40:888][324]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2024.01.25-18.48.40:888][324]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2024.01.25-18.48.40:889][324]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2024.01.25-18.48.40:889][324]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2024.01.25-18.48.40:889][324]LogInit: FAudioDevice initialized with ID 32.
+[2024.01.25-18.48.40:889][324]LogAudio: Display: Audio Device (ID: 32) registered with world 'ThirdPersonMap'.
+[2024.01.25-18.48.40:890][324]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2024.01.25-18.48.40:938][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-18.48.40:938][324]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.25-18.48.40:941][324]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.25-15.48.40
+[2024.01.25-18.48.40:941][324]LogWorld: Bringing up level for play took: 0.002237
+[2024.01.25-18.48.40:945][324]PIE: Server logged in
+[2024.01.25-18.48.40:946][324]PIE: Play in editor total start time 0,189 seconds.
+[2024.01.25-18.48.40:953][324]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.25-18.48.47:532][561]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-18.48.49:297][618]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-18.48.51:566][693]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-18.48.52:259][716]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-18.48.55:456][824]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-18.48.56:678][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-18.48.56:678][865]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-18.48.56:679][865]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.25-18.48.56:687][865]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-18.48.56:688][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-18.48.56:688][865]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.25-18.48.56:690][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.25-18.48.56:695][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-18.48.56:730][865]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2024.01.25-18.48.56:730][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.01.25-18.48.56:732][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.01.25-18.48.56:739][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.01.25-18.48.56:791][866]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2024.01.25-18.51.30:280][234]LogHttp: Warning: 00000B97A94DA500: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B74A28A3B-42C2-D934-2694-A6B2705A9EC1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f24fd76c44badc5220ccb69654d2840a%7C53374193149c43d19159cdb575a00a79%7C6d1526cc-2e95-4472-bd6b-aaee525d63ac&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 122, actual payload size: 122, elapsed: 62.47s
+[2024.01.25-18.51.30:280][234]LogHttp: Warning: 00000B97A94DA500 Response Header Server: awselb/2.0
+[2024.01.25-18.51.30:280][234]LogHttp: Warning: 00000B97A94DA500 Response Header Date: Thu, 25 Jan 2024 18:51:29 GMT
+[2024.01.25-18.51.30:280][234]LogHttp: Warning: 00000B97A94DA500 Response Header Content-Type: text/html
+[2024.01.25-18.51.30:280][234]LogHttp: Warning: 00000B97A94DA500 Response Header Content-Length: 122
+[2024.01.25-18.51.30:280][234]LogHttp: Warning: 00000B97A94DA500 Response Header Connection: keep-alive
+[2024.01.25-18.57.44:075][355]LogDerivedDataCache: C:/Users/enzo.santos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:44.187 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 22908 files in 24513 folders with total size 1566 MiB.
+[2024.01.25-19.06.34:951][947]LogHttp: Warning: 00000B97A94D9B00: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B74A28A3B-42C2-D934-2694-A6B2705A9EC1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f24fd76c44badc5220ccb69654d2840a%7C53374193149c43d19159cdb575a00a79%7C6d1526cc-2e95-4472-bd6b-aaee525d63ac&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 122, actual payload size: 122, elapsed: 7.05s
+[2024.01.25-19.06.34:951][947]LogHttp: Warning: 00000B97A94D9B00 Response Header Server: awselb/2.0
+[2024.01.25-19.06.34:951][947]LogHttp: Warning: 00000B97A94D9B00 Response Header Date: Thu, 25 Jan 2024 19:06:34 GMT
+[2024.01.25-19.06.34:951][947]LogHttp: Warning: 00000B97A94D9B00 Response Header Content-Type: text/html
+[2024.01.25-19.06.34:951][947]LogHttp: Warning: 00000B97A94D9B00 Response Header Content-Length: 122
+[2024.01.25-19.06.34:951][947]LogHttp: Warning: 00000B97A94D9B00 Response Header Connection: keep-alive
+[2024.01.25-19.08.08:965][229]LogHttp: Warning: 00000B97A94D9B00: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B74A28A3B-42C2-D934-2694-A6B2705A9EC1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f24fd76c44badc5220ccb69654d2840a%7C53374193149c43d19159cdb575a00a79%7C6d1526cc-2e95-4472-bd6b-aaee525d63ac&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 122, actual payload size: 122, elapsed: 41.23s
+[2024.01.25-19.08.08:965][229]LogHttp: Warning: 00000B97A94D9B00 Response Header Server: awselb/2.0
+[2024.01.25-19.08.08:965][229]LogHttp: Warning: 00000B97A94D9B00 Response Header Date: Thu, 25 Jan 2024 19:08:08 GMT
+[2024.01.25-19.08.08:965][229]LogHttp: Warning: 00000B97A94D9B00 Response Header Content-Type: text/html
+[2024.01.25-19.08.08:965][229]LogHttp: Warning: 00000B97A94D9B00 Response Header Content-Length: 122
+[2024.01.25-19.08.08:965][229]LogHttp: Warning: 00000B97A94D9B00 Response Header Connection: keep-alive
+[2024.01.25-19.32.26:303][731]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.25-19.32.26:391][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.25-19.32.27:612][835]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.25-19.32.27:618][835]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.25-19.32.27:618][835]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.25-19.32.27:619][835]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 768 us (total: 37 ms)
+[2024.01.25-19.32.27:619][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.25-19.32.27:619][835]PIE: New page: PIE session: ThirdPersonMap (25 de jan de 2024 13:32:27)
+[2024.01.25-19.32.27:619][835]LogPlayLevel: Display: Creating online subsystem for client :Context_56
+[2024.01.25-19.32.27:621][835]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2024.01.25-19.32.27:631][836]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.32.27:634][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003571s)
+[2024.01.25-19.32.27:634][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003615s)
+[2024.01.25-19.32.27:651][836]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.25-19.32.27:654][836]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-19.32.27:654][836]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-19.32.27:655][836]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.25-19.32.27:655][836]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.25-19.32.27:655][836]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-19.32.27:655][836]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-19.32.27:655][836]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.25-19.32.27:656][836]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.25-19.32.27:656][836]LogWorldPartition: Display: WorldPartition initialize took 837 us (total: 1.25 sec)
+[2024.01.25-19.32.27:656][836]LogPlayLevel: PIE: World Init took: (0.001980s)
+[2024.01.25-19.32.27:656][836]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.01.25-19.32.27:656][836]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.25-19.32.27:656][836]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.25-19.32.27:656][836]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.25-19.32.27:656][836]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.25-19.32.27:656][836]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.25-19.32.27:656][836]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.25-19.32.27:656][836]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.25-19.32.27:656][836]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.25-19.32.27:657][836]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.25-19.32.27:657][836]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.25-19.32.27:657][836]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.25-19.32.27:659][836]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.25-19.32.27:744][836]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.25-19.32.27:744][836]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.25-19.32.27:744][836]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.25-19.32.27:744][836]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.25-19.32.27:746][836]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.01.25-19.32.27:746][836]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.01.25-19.32.27:747][836]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.01.25-19.32.27:747][836]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.01.25-19.32.27:747][836]LogInit: FAudioDevice initialized with ID 33.
+[2024.01.25-19.32.27:747][836]LogAudio: Display: Audio Device (ID: 33) registered with world 'ThirdPersonMap'.
+[2024.01.25-19.32.27:747][836]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.01.25-19.32.27:829][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.32.27:830][836]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.25-19.32.27:835][836]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.25-16.32.27
+[2024.01.25-19.32.27:836][836]LogWorld: Bringing up level for play took: 0.005206
+[2024.01.25-19.32.27:846][836]PIE: Server logged in
+[2024.01.25-19.32.27:851][836]PIE: Play in editor total start time 0,232 seconds.
+[2024.01.25-19.32.27:893][836]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.25-19.32.28:733][857]LogScript: Warning: Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1
+	BP_CombatCharacter_C /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:ExecuteUbergraph_BP_CombatCharacter:0748
+[2024.01.25-19.32.28:733][857]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1". Node:  Play Anim Montage Graph:  EventGraph Function:  Execute Ubergraph BP Combat Character Blueprint:  BP_CombatCharacter
+[2024.01.25-19.32.28:750][858]LogScript: Warning: Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1
+	BP_CombatCharacter_C /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:ExecuteUbergraph_BP_CombatCharacter:0748
+[2024.01.25-19.32.28:750][858]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1". Node:  Play Anim Montage Graph:  EventGraph Function:  Execute Ubergraph BP Combat Character Blueprint:  BP_CombatCharacter
+[2024.01.25-19.32.28:776][859]LogScript: Warning: Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1
+	BP_CombatCharacter_C /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:ExecuteUbergraph_BP_CombatCharacter:0748
+[2024.01.25-19.32.28:776][859]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1". Node:  Play Anim Montage Graph:  EventGraph Function:  Execute Ubergraph BP Combat Character Blueprint:  BP_CombatCharacter
+[2024.01.25-19.32.28:801][860]LogScript: Warning: Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1
+	BP_CombatCharacter_C /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:ExecuteUbergraph_BP_CombatCharacter:0748
+[2024.01.25-19.32.28:801][860]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1". Node:  Play Anim Montage Graph:  EventGraph Function:  Execute Ubergraph BP Combat Character Blueprint:  BP_CombatCharacter
+[2024.01.25-19.32.28:827][861]LogScript: Warning: Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1
+	BP_CombatCharacter_C /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:ExecuteUbergraph_BP_CombatCharacter:0748
+[2024.01.25-19.32.28:827][861]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1". Node:  Play Anim Montage Graph:  EventGraph Function:  Execute Ubergraph BP Combat Character Blueprint:  BP_CombatCharacter
+[2024.01.25-19.32.28:853][862]LogScript: Warning: Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1
+	BP_CombatCharacter_C /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CombatCharacter_C_0
+	Function /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter_C:ExecuteUbergraph_BP_CombatCharacter:0748
+[2024.01.25-19.32.28:853][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetMainWeapon_ReturnValue_1". Node:  Play Anim Montage Graph:  EventGraph Function:  Execute Ubergraph BP Combat Character Blueprint:  BP_CombatCharacter
+[2024.01.25-19.32.33:498][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.32.33:498][ 29]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.32.33:499][ 29]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.25-19.32.33:512][ 29]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.32.33:512][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.32.33:512][ 29]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.25-19.32.33:514][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.25-19.32.33:519][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.32.33:537][ 29]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.25-19.32.33:538][ 29]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.01.25-19.32.33:538][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.01.25-19.32.33:539][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.01.25-19.32.33:548][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.01.25-19.32.33:742][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2024.01.25-19.32.37:566][381]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.25-19.32.37:651][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.25-19.32.38:231][411]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.32.38:352][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.25-19.32.38:427][411]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.25-19.32.38:428][411]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter645ACCAF43FA7724438B95BF68F4CC6F.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.25-19.32.38:436][411]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 19.3 sec)
+[2024.01.25-19.32.38:438][411]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.25-19.32.38:438][411]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.25-19.32.39:742][544]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.25-19.32.39:749][544]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.25-19.32.39:749][544]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.25-19.32.39:750][544]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 727 us (total: 38 ms)
+[2024.01.25-19.32.39:750][544]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.25-19.32.39:750][544]PIE: New page: PIE session: ThirdPersonMap (25 de jan de 2024 13:32:39)
+[2024.01.25-19.32.39:750][544]LogPlayLevel: Display: Creating online subsystem for client :Context_57
+[2024.01.25-19.32.39:752][544]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2024.01.25-19.32.39:763][545]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.32.39:766][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003089s)
+[2024.01.25-19.32.39:766][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003132s)
+[2024.01.25-19.32.39:781][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.25-19.32.39:785][545]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-19.32.39:785][545]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-19.32.39:785][545]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.25-19.32.39:786][545]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.25-19.32.39:786][545]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-19.32.39:786][545]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-19.32.39:786][545]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.25-19.32.39:786][545]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.25-19.32.39:787][545]LogWorldPartition: Display: WorldPartition initialize took 901 us (total: 1.25 sec)
+[2024.01.25-19.32.39:787][545]LogPlayLevel: PIE: World Init took: (0.001914s)
+[2024.01.25-19.32.39:787][545]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2024.01.25-19.32.39:787][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.25-19.32.39:787][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.25-19.32.39:787][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.25-19.32.39:787][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.25-19.32.39:787][545]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.25-19.32.39:787][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.25-19.32.39:787][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.25-19.32.39:787][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.25-19.32.39:787][545]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.25-19.32.39:787][545]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.25-19.32.39:787][545]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.25-19.32.39:789][545]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.25-19.32.39:874][545]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.25-19.32.39:874][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.25-19.32.39:874][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.25-19.32.39:874][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.25-19.32.39:875][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2024.01.25-19.32.39:875][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2024.01.25-19.32.39:877][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2024.01.25-19.32.39:877][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2024.01.25-19.32.39:877][545]LogInit: FAudioDevice initialized with ID 34.
+[2024.01.25-19.32.39:877][545]LogAudio: Display: Audio Device (ID: 34) registered with world 'ThirdPersonMap'.
+[2024.01.25-19.32.39:877][545]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2024.01.25-19.32.39:934][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.32.39:934][545]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.25-19.32.39:936][545]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.25-16.32.39
+[2024.01.25-19.32.39:937][545]LogWorld: Bringing up level for play took: 0.002301
+[2024.01.25-19.32.39:945][545]PIE: Server logged in
+[2024.01.25-19.32.39:950][545]PIE: Play in editor total start time 0,201 seconds.
+[2024.01.25-19.32.39:967][545]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.25-19.32.40:939][576]LogSlate: Window 'Message Log' being destroyed
+[2024.01.25-19.32.40:946][576]LogSlate: Window 'Message Log' being destroyed
+[2024.01.25-19.32.46:283][741]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.32.48:472][818]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.32.50:436][888]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.32.51:122][913]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.32.52:796][974]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.32.53:758][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.32.53:758][  8]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.32.53:759][  8]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.25-19.32.53:764][  8]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.32.53:764][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.32.53:764][  8]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.25-19.32.53:767][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.25-19.32.53:772][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.32.53:791][  8]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.25-19.32.53:791][  8]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2024.01.25-19.32.53:791][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.01.25-19.32.53:793][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.01.25-19.32.53:801][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.01.25-19.32.53:842][  9]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2024.01.25-19.33.18:672][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.33.18:735][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.25-19.33.18:809][633]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.25-19.33.18:809][633]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter256D961E4105089291E295A9F1E42F89.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.25-19.33.18:816][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 19.4 sec)
+[2024.01.25-19.33.18:818][633]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.25-19.33.18:818][633]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.25-19.35.27:819][346]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.01.25-19.35.30:706][648]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2024.01.25-19.35.30:800][648]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2024.01.25-19.35.30:812][649]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2024.01.25-19.35.40:992][ 77]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E_CharacterState
+[2024.01.25-19.35.41:010][ 77]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2024.01.25-19.35.41:436][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.35.41:520][103]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Enums/E_CharacterState
+[2024.01.25-19.35.41:520][103]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/E_CharacterState698FE7AA47DA745DFE6C9E837B00A9F3.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Enums/E_CharacterState.uasset'
+[2024.01.25-19.35.41:528][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 19.5 sec)
+[2024.01.25-19.35.41:528][103]AssetCheck: New page: Asset Save: E_CharacterState
+[2024.01.25-19.35.41:528][103]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_CharacterState.E_CharacterState
+[2024.01.25-19.35.42:549][166]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_CombatType.E_CombatType
+[2024.01.25-19.35.51:324][976]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_CharacterState.E_CharacterState
+[2024.01.25-19.35.54:667][324]LogSlate: Window 'E_CharacterState' being destroyed
+[2024.01.25-19.36.02:143][967]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2024.01.25-19.36.52:229][306]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.36.52:277][306]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Enums/E_CharacterState
+[2024.01.25-19.36.52:277][306]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/E_CharacterState554F608D4782EDDAD63CE0BEA3A9396D.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Enums/E_CharacterState.uasset'
+[2024.01.25-19.36.52:282][306]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 19.6 sec)
+[2024.01.25-19.36.52:283][306]AssetCheck: New page: Asset Save: E_CharacterState
+[2024.01.25-19.36.52:283][306]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_CharacterState.E_CharacterState
+[2024.01.25-19.36.56:385][749]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.36.56:385][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.36.57:205][798]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.36.57:205][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.36.57:486][798]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.36.57:486][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.39.01:707][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.01.25-19.39.01:712][840]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.095
+[2024.01.25-19.39.01:713][840]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2024.01.25-19.39.01:802][840]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2024.01.25-19.39.01:802][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2024.01.25-19.39.01:882][840]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto4
+[2024.01.25-19.39.01:882][840]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter_Auto4379CA8344D480A6701D8F9A1ED36DFB2.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto4.uasset'
+[2024.01.25-19.39.01:883][840]LogFileHelpers: Auto-saving content packages took 0.171
+[2024.01.25-19.40.09:417][714]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.40.09:572][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.25-19.40.09:647][714]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.25-19.40.09:648][714]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter970684A7449D4D55A36080B36B3ADFA1.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.25-19.40.09:655][714]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 19.8 sec)
+[2024.01.25-19.40.09:657][714]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.25-19.40.09:657][714]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.25-19.40.11:952][979]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.25-19.40.12:032][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.01.25-19.40.48:174][986]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.25-19.40.48:182][986]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.01.25-19.40.48:189][986]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.01.25-19.40.48:202][987]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.01.25-19.40.59:252][920]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_StateManagerComponent
+[2024.01.25-19.40.59:273][920]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.01.25-19.41.00:431][ 56]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.41.00:432][ 56]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-19.41.00:432][ 56]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-19.41.02:861][294]LogSlate: Window 'BP_StateManagerComponent' being destroyed
+[2024.01.25-19.41.04:855][516]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.25-19.41.04:946][516]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2024.01.25-19.41.05:748][573]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.41.05:860][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.25-19.41.05:946][573]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.25-19.41.05:946][573]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter1EC0B92F4521BAAE8EB4949B1F529B3E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.25-19.41.05:954][573]LogFileHelpers: InternalPromptForCheckoutAndSave took 205 ms (total: 20.0 sec)
+[2024.01.25-19.41.05:956][573]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.25-19.41.05:956][573]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.25-19.41.19:173][662]LogSlate: Took 0.008941 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.01.25-19.41.33:574][361]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.41.33:624][361]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.41.33:624][361]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent908551854198D55505FC6D99B1D2787A.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.41.33:660][361]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 20.1 sec)
+[2024.01.25-19.41.33:660][361]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.41.33:660][361]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.41.36:355][675]BlueprintLog: New page: Compile BP_StateManagerComponent
+[2024.01.25-19.41.36:390][675]LogUObjectHash: Compacting FUObjectHashTables data took  14.29ms
+[2024.01.25-19.44.16:615][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.44.16:694][ 24]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.44.16:695][ 24]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent622069E0477DBC0306543C82A669E90D.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.44.16:700][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 20.2 sec)
+[2024.01.25-19.44.16:701][ 24]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.44.16:701][ 24]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.44.22:063][405]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.44.22:112][405]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.44.22:112][405]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponentEEAE48FF463972DC29F4FCAA2D0D4EDA.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.44.22:119][405]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 20.2 sec)
+[2024.01.25-19.44.22:120][405]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.44.22:120][405]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.44.32:336][ 67]BlueprintLog: New page: Compile BP_StateManagerComponent
+[2024.01.25-19.44.32:361][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.01.25-19.44.33:922][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.44.33:981][233]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.44.33:981][233]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent03DB08B94A0CFC4260E75188E8E01A6C.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.44.33:987][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 20.3 sec)
+[2024.01.25-19.44.33:988][233]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.44.33:989][233]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.44.50:667][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.44.50:735][838]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.44.50:736][838]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponentAD55D05E46F4B2CE8841B2A12BD504EB.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.44.50:742][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 20.4 sec)
+[2024.01.25-19.44.50:743][838]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.44.50:743][838]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.47.01:986][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.47.02:065][748]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.47.02:066][748]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent3D3E384241676A9BC56A82B9E1ACBFFA.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.47.02:072][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 20.5 sec)
+[2024.01.25-19.47.02:072][748]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.47.02:072][748]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.47.54:989][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.47.55:057][100]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.47.55:058][100]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent23F0A09047EACC373B579B9EAA578BBA.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.47.55:064][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 20.5 sec)
+[2024.01.25-19.47.55:065][100]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.47.55:065][100]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.47.56:980][323]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.47.57:053][323]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.47.57:054][323]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent61DD2E4A4D3D44D0C75F71977B7D5257.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.47.57:060][323]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 20.6 sec)
+[2024.01.25-19.47.57:061][323]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.47.57:061][323]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.48.24:433][798]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.48.24:492][798]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.48.24:492][798]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent2EAEBD734B53151066078BAD6CF65FE8.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.48.24:498][798]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 20.7 sec)
+[2024.01.25-19.48.24:499][798]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.48.24:499][798]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.48.32:692][764]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.48.32:783][764]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.48.32:783][764]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent04C1CD7C434A6B84FBD6D2B893D6E026.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.48.32:789][764]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 20.8 sec)
+[2024.01.25-19.48.32:791][764]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.48.32:791][764]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.48.36:488][184]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.48.36:541][184]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.48.36:542][184]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponentF66EC11D4D5764FDA6EA0288A921007E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.48.36:548][184]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 20.8 sec)
+[2024.01.25-19.48.36:549][184]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.48.36:549][184]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.48.36:853][221]BlueprintLog: New page: Compile BP_StateManagerComponent
+[2024.01.25-19.48.36:889][221]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.01.25-19.48.37:567][286]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.48.37:626][286]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.48.37:626][286]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent50F6038C4687DB0B9330B5BB183C77FF.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.48.37:632][286]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 20.9 sec)
+[2024.01.25-19.48.37:633][286]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.48.37:633][286]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.49.09:972][802]BlueprintLog: New page: Compile BP_StateManagerComponent
+[2024.01.25-19.49.09:992][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.01.25-19.49.10:563][857]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.49.10:627][857]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.49.10:627][857]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponentF190E4A24EDA4AC54BAE70BEB891972D.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.49.10:633][857]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 21.0 sec)
+[2024.01.25-19.49.10:634][857]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.49.10:634][857]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.49.22:655][634]BlueprintLog: New page: Compile BP_StateManagerComponent
+[2024.01.25-19.49.22:678][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.25-19.49.23:979][773]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.49.24:081][773]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.49.24:081][773]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent3FB30D7F40D36CF945F3009E31089F04.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.49.24:087][773]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 21.1 sec)
+[2024.01.25-19.49.24:088][773]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.49.24:088][773]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.49.37:575][342]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.49.37:611][342]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.49.37:612][342]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponentF974FDAC47FA8F4CC191A88D83415AF3.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.49.37:618][342]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 21.1 sec)
+[2024.01.25-19.49.37:619][342]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.49.37:619][342]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.49.50:857][799]BlueprintLog: New page: Compile BP_StateManagerComponent
+[2024.01.25-19.49.50:881][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.25-19.49.51:035][812]BlueprintLog: New page: Compile BP_StateManagerComponent
+[2024.01.25-19.49.51:058][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.01.25-19.49.51:625][866]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.49.51:679][866]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent
+[2024.01.25-19.49.51:679][866]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_StateManagerComponent3AEC30AB42B3C5D0CA6D7E8CBD76C7D2.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset'
+[2024.01.25-19.49.51:685][866]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 21.2 sec)
+[2024.01.25-19.49.51:686][866]AssetCheck: New page: Asset Save: BP_StateManagerComponent
+[2024.01.25-19.49.51:686][866]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/Components/BP_StateManagerComponent.BP_StateManagerComponent
+[2024.01.25-19.52.47:516][839]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.25-19.52.47:523][839]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.25-19.52.47:523][839]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.25-19.52.47:524][839]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 840 us (total: 39 ms)
+[2024.01.25-19.52.47:524][839]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.25-19.52.47:525][839]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2024.01.25-19.52.47:626][839]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.01.25-19.52.47:629][839]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
+[2024.01.25-19.52.47:629][839]PIE: New page: PIE session: ThirdPersonMap (25 de jan de 2024 13:52:47)
+[2024.01.25-19.52.47:629][839]LogPlayLevel: Display: Creating online subsystem for client :Context_59
+[2024.01.25-19.52.47:632][839]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.01.25-19.52.47:649][840]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.52.47:654][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004728s)
+[2024.01.25-19.52.47:654][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004776s)
+[2024.01.25-19.52.47:669][840]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.01.25-19.52.47:672][840]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-19.52.47:673][840]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-19.52.47:673][840]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.25-19.52.47:674][840]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.25-19.52.47:674][840]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-19.52.47:674][840]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-19.52.47:674][840]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.25-19.52.47:674][840]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.25-19.52.47:674][840]LogWorldPartition: Display: WorldPartition initialize took 903 us (total: 1.25 sec)
+[2024.01.25-19.52.47:674][840]LogPlayLevel: PIE: World Init took: (0.002188s)
+[2024.01.25-19.52.47:675][840]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2024.01.25-19.52.47:675][840]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.25-19.52.47:675][840]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.25-19.52.47:675][840]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.25-19.52.47:675][840]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.25-19.52.47:675][840]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.25-19.52.47:675][840]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.25-19.52.47:675][840]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.25-19.52.47:675][840]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.25-19.52.47:675][840]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.25-19.52.47:675][840]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.25-19.52.47:675][840]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.25-19.52.47:677][840]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.25-19.52.47:762][840]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.25-19.52.47:762][840]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.25-19.52.47:762][840]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.25-19.52.47:762][840]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.25-19.52.47:763][840]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2024.01.25-19.52.47:763][840]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2024.01.25-19.52.47:765][840]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2024.01.25-19.52.47:765][840]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2024.01.25-19.52.47:765][840]LogInit: FAudioDevice initialized with ID 35.
+[2024.01.25-19.52.47:765][840]LogAudio: Display: Audio Device (ID: 35) registered with world 'ThirdPersonMap'.
+[2024.01.25-19.52.47:765][840]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2024.01.25-19.52.47:834][840]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.52.47:834][840]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.25-19.52.47:836][840]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.25-16.52.47
+[2024.01.25-19.52.47:837][840]LogWorld: Bringing up level for play took: 0.002282
+[2024.01.25-19.52.47:843][840]PIE: Server logged in
+[2024.01.25-19.52.47:845][840]PIE: Play in editor total start time 0,321 seconds.
+[2024.01.25-19.52.47:868][840]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.25-19.52.51:322][957]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.52.51:963][978]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.52.52:628][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.52.52:628][999]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.52.52:629][999]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.25-19.52.52:645][999]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.52.52:645][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.52.52:645][999]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.25-19.52.52:647][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.25-19.52.52:653][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.52.52:670][999]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2024.01.25-19.52.52:670][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.01.25-19.52.52:672][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.01.25-19.52.52:680][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.01.25-19.52.52:759][  0]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.01.25-19.53.07:256][841]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.25-19.54.23:945][803]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-19.54.23:999][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/IMC_Default.uasset" SILENT=true
+[2024.01.25-19.54.24:012][803]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2024.01.25-19.54.24:013][803]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/IMC_Default51025FFB4CED5B35965E26AB7DA637EF.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/IMC_Default.uasset'
+[2024.01.25-19.54.24:038][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 21.3 sec)
+[2024.01.25-19.54.24:055][803]AssetCheck: New page: Asset Save: IMC_Default
+[2024.01.25-19.54.24:055][803]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.25-19.54.26:024][954]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.25-19.54.26:030][954]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.25-19.54.26:030][954]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.25-19.54.26:031][954]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 741 us (total: 40 ms)
+[2024.01.25-19.54.26:031][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.25-19.54.26:031][954]PIE: New page: PIE session: ThirdPersonMap (25 de jan de 2024 13:54:26)
+[2024.01.25-19.54.26:031][954]LogPlayLevel: Display: Creating online subsystem for client :Context_60
+[2024.01.25-19.54.26:033][954]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2024.01.25-19.54.26:048][955]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.54.26:052][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003708s)
+[2024.01.25-19.54.26:052][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003764s)
+[2024.01.25-19.54.26:066][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.25-19.54.26:069][955]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-19.54.26:069][955]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-19.54.26:070][955]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.25-19.54.26:070][955]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.25-19.54.26:070][955]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-19.54.26:070][955]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-19.54.26:070][955]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.25-19.54.26:071][955]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.25-19.54.26:071][955]LogWorldPartition: Display: WorldPartition initialize took 803 us (total: 1.25 sec)
+[2024.01.25-19.54.26:071][955]LogPlayLevel: PIE: World Init took: (0.001879s)
+[2024.01.25-19.54.26:071][955]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2024.01.25-19.54.26:071][955]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.25-19.54.26:071][955]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.25-19.54.26:071][955]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.25-19.54.26:071][955]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.25-19.54.26:071][955]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.25-19.54.26:071][955]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.25-19.54.26:071][955]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.25-19.54.26:071][955]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.25-19.54.26:072][955]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.25-19.54.26:072][955]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.25-19.54.26:072][955]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.25-19.54.26:074][955]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.25-19.54.26:158][955]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.25-19.54.26:158][955]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.25-19.54.26:158][955]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.25-19.54.26:158][955]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.25-19.54.26:160][955]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2024.01.25-19.54.26:160][955]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2024.01.25-19.54.26:161][955]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2024.01.25-19.54.26:161][955]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2024.01.25-19.54.26:161][955]LogInit: FAudioDevice initialized with ID 36.
+[2024.01.25-19.54.26:161][955]LogAudio: Display: Audio Device (ID: 36) registered with world 'ThirdPersonMap'.
+[2024.01.25-19.54.26:161][955]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2024.01.25-19.54.26:218][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.54.26:218][955]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.25-19.54.26:220][955]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.25-16.54.26
+[2024.01.25-19.54.26:220][955]LogWorld: Bringing up level for play took: 0.002154
+[2024.01.25-19.54.26:225][955]PIE: Server logged in
+[2024.01.25-19.54.26:226][955]PIE: Play in editor total start time 0,195 seconds.
+[2024.01.25-19.54.26:233][955]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.25-19.54.39:878][472]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.54.39:878][472]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.54.39:879][472]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.25-19.54.39:891][472]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.54.39:891][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.54.39:891][472]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.25-19.54.39:894][472]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.25-19.54.39:898][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.54.39:914][472]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2024.01.25-19.54.39:914][472]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.01.25-19.54.39:916][472]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.01.25-19.54.39:923][472]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.01.25-19.54.40:005][473]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2024.01.25-19.57.43:261][ 48]LogDerivedDataCache: C:/Users/enzo.santos/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:43.373 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 22908 files in 24513 folders with total size 1566 MiB.
+[2024.01.25-19.58.26:685][462]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.25-19.58.26:692][462]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.25-19.58.26:692][462]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.25-19.58.26:693][462]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 986 us (total: 41 ms)
+[2024.01.25-19.58.26:693][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.25-19.58.26:693][462]PIE: New page: PIE session: ThirdPersonMap (25 de jan de 2024 13:58:26)
+[2024.01.25-19.58.26:693][462]LogPlayLevel: Display: Creating online subsystem for client :Context_61
+[2024.01.25-19.58.26:695][462]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2024.01.25-19.58.26:711][463]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.58.26:715][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003800s)
+[2024.01.25-19.58.26:715][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003851s)
+[2024.01.25-19.58.26:731][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.25-19.58.26:734][463]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-19.58.26:734][463]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-19.58.26:735][463]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.25-19.58.26:735][463]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.25-19.58.26:735][463]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-19.58.26:735][463]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-19.58.26:735][463]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.25-19.58.26:736][463]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.25-19.58.26:736][463]LogWorldPartition: Display: WorldPartition initialize took 844 us (total: 1.25 sec)
+[2024.01.25-19.58.26:736][463]LogPlayLevel: PIE: World Init took: (0.002052s)
+[2024.01.25-19.58.26:736][463]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2024.01.25-19.58.26:736][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.25-19.58.26:736][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.25-19.58.26:736][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.25-19.58.26:736][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.25-19.58.26:736][463]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.25-19.58.26:736][463]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.25-19.58.26:736][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.25-19.58.26:736][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.25-19.58.26:737][463]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.25-19.58.26:737][463]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.25-19.58.26:737][463]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.25-19.58.26:739][463]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.25-19.58.26:822][463]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.25-19.58.26:822][463]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.25-19.58.26:822][463]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.25-19.58.26:822][463]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.25-19.58.26:824][463]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2024.01.25-19.58.26:824][463]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2024.01.25-19.58.26:831][463]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2024.01.25-19.58.26:831][463]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2024.01.25-19.58.26:831][463]LogInit: FAudioDevice initialized with ID 37.
+[2024.01.25-19.58.26:831][463]LogAudio: Display: Audio Device (ID: 37) registered with world 'ThirdPersonMap'.
+[2024.01.25-19.58.26:831][463]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2024.01.25-19.58.26:888][463]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.58.26:888][463]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.25-19.58.26:890][463]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.25-16.58.26
+[2024.01.25-19.58.26:891][463]LogWorld: Bringing up level for play took: 0.002262
+[2024.01.25-19.58.26:895][463]PIE: Server logged in
+[2024.01.25-19.58.26:896][463]PIE: Play in editor total start time 0,204 seconds.
+[2024.01.25-19.58.26:903][463]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.25-19.58.55:659][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.58.55:659][528]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.58.55:660][528]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.25-19.58.55:665][528]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.58.55:666][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.58.55:666][528]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.25-19.58.55:668][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.25-19.58.55:673][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.58.55:691][528]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2024.01.25-19.58.55:691][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.01.25-19.58.55:693][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.01.25-19.58.55:700][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.25-19.58.55:801][529]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2024.01.25-19.58.56:692][581]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.25-19.58.56:698][581]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.25-19.58.56:698][581]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.25-19.58.56:699][581]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 723 us (total: 41 ms)
+[2024.01.25-19.58.56:699][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.25-19.58.56:699][581]PIE: New page: PIE session: ThirdPersonMap (25 de jan de 2024 13:58:56)
+[2024.01.25-19.58.56:699][581]LogPlayLevel: Display: Creating online subsystem for client :Context_62
+[2024.01.25-19.58.56:701][581]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2024.01.25-19.58.56:717][582]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.58.56:720][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003321s)
+[2024.01.25-19.58.56:720][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003364s)
+[2024.01.25-19.58.56:737][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.25-19.58.56:741][582]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-19.58.56:741][582]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-19.58.56:741][582]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.25-19.58.56:742][582]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.25-19.58.56:742][582]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-19.58.56:742][582]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-19.58.56:742][582]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.25-19.58.56:743][582]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.25-19.58.56:743][582]LogWorldPartition: Display: WorldPartition initialize took 837 us (total: 1.25 sec)
+[2024.01.25-19.58.56:743][582]LogPlayLevel: PIE: World Init took: (0.001860s)
+[2024.01.25-19.58.56:743][582]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2024.01.25-19.58.56:743][582]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.25-19.58.56:743][582]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.25-19.58.56:743][582]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.25-19.58.56:743][582]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.25-19.58.56:743][582]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.25-19.58.56:743][582]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.25-19.58.56:743][582]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.25-19.58.56:743][582]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.25-19.58.56:744][582]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.25-19.58.56:744][582]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.25-19.58.56:744][582]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.25-19.58.56:746][582]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.25-19.58.56:828][582]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.25-19.58.56:828][582]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.25-19.58.56:828][582]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.25-19.58.56:829][582]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.25-19.58.56:829][582]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2024.01.25-19.58.56:829][582]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2024.01.25-19.58.56:831][582]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2024.01.25-19.58.56:831][582]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2024.01.25-19.58.56:831][582]LogInit: FAudioDevice initialized with ID 38.
+[2024.01.25-19.58.56:831][582]LogAudio: Display: Audio Device (ID: 38) registered with world 'ThirdPersonMap'.
+[2024.01.25-19.58.56:831][582]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2024.01.25-19.58.56:906][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.58.56:906][582]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.25-19.58.56:908][582]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.25-16.58.56
+[2024.01.25-19.58.56:909][582]LogWorld: Bringing up level for play took: 0.002263
+[2024.01.25-19.58.56:913][582]PIE: Server logged in
+[2024.01.25-19.58.56:914][582]PIE: Play in editor total start time 0,216 seconds.
+[2024.01.25-19.58.56:933][582]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.01.25-19.59.00:739][714]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.59.01:384][736]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.59.04:739][850]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.59.05:442][874]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.59.08:671][986]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.25-19.59.33:118][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-19.59.33:119][887]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.25-19.59.33:120][887]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.25-19.59.33:125][887]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.33:126][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.59.33:126][887]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.25-19.59.33:127][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.25-19.59.33:134][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.59.33:153][887]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2024.01.25-19.59.33:153][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.01.25-19.59.33:155][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.01.25-19.59.33:162][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.01.25-19.59.33:242][888]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2024.01.25-19.59.44:635][550]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.01.25-19.59.44:639][550]LogStall: Shutdown...
+[2024.01.25-19.59.44:687][550]LogStall: Shutdown complete.
+[2024.01.25-19.59.45:012][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.25-19.59.45:012][550]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.45:012][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.59.45:949][550]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.45:949][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.59.46:150][550]LogSlate: Window 'SoulsLikeGame - Unreal Editor' being destroyed
+[2024.01.25-19.59.46:981][551]Cmd: QUIT_EDITOR
+[2024.01.25-19.59.46:981][551]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.01.25-19.59.47:073][551]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.01.25-19.59.47:073][551]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.01.25-19.59.47:073][551]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.01.25-19.59.47:166][551]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.47:166][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-19.59.47:234][551]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.25-19.59.47:836][551]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.01.25-19.59.49:502][551]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.01.25-19.59.49:502][551]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.01.25-19.59.49:502][551]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2024.01.25-19.59.49:502][551]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.01.25-19.59.49:502][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.25-19.59.49:544][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.25-19.59.49:677][551]LogAudio: Display: Audio Device Manager Shutdown
+[2024.01.25-19.59.49:718][551]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.25-19.59.49:786][551]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.01.25-19.59.49:838][551]LogExit: Preparing to exit.
+[2024.01.25-19.59.50:383][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2024.01.25-19.59.50:399][551]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:399][551]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:610][551]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:636][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:636][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:636][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:636][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:637][551]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:638][551]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:638][551]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:638][551]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:638][551]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:639][551]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:639][551]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:639][551]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:639][551]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:639][551]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:639][551]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:647][551]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.50:648][551]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.25-19.59.55:270][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:270][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:270][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:270][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:270][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:270][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:270][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:270][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:272][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:272][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:272][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:272][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:272][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:272][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:272][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:272][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:273][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:273][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:273][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:273][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:273][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:273][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:273][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:273][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:274][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:274][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:274][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:274][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:274][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:274][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:274][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:274][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:275][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:276][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:276][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:276][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:276][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:276][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:276][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:276][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:276][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:276][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:276][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:282][551]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:284][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:284][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:284][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:284][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:284][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:284][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:284][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:284][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:285][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:285][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:285][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:285][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:285][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:285][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:285][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:285][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.55:286][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:286][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:286][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:286][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:286][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:286][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:286][551]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.25-19.59.55:286][551]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-19.59.56:356][551]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.01.25-19.59.58:911][551]LogExit: Editor shut down
+[2024.01.25-19.59.59:055][551]LogExit: Transaction tracking system shut down
+[2024.01.25-20.00.09:183][551]LogExit: Object subsystem successfully closed.
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: ================================================
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: Total job queries 42, among them cache hits 16 (38.10%)
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 24 distinct outputs (92.31%)
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: RAM used: 780,16 KiB of 819,20 MiB budget. Usage: 0.09%
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.25-20.00.09:280][551]LogShaderCompilers: Display: ================================================
+[2024.01.25-20.00.09:386][551]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.01.25-20.00.10:690][551]LogVirtualization: UE::Virtualization was shutdown
+[2024.01.25-20.00.14:077][551]LogModuleManager: Shutting down and abandoning module SequencerWidgets (1064)
+[2024.01.25-20.00.14:077][551]LogModuleManager: Shutting down and abandoning module PinnedCommandList (1062)
+[2024.01.25-20.00.14:077][551]LogModuleManager: Shutting down and abandoning module SkeletonEditor (1060)
+[2024.01.25-20.00.14:077][551]LogModuleManager: Shutting down and abandoning module AnimationEditor (1058)
+[2024.01.25-20.00.14:077][551]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (1056)
+[2024.01.25-20.00.14:088][551]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1054)
+[2024.01.25-20.00.14:088][551]LogModuleManager: Shutting down and abandoning module Voice (1052)
+[2024.01.25-20.00.14:115][551]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1050)
+[2024.01.25-20.00.14:115][551]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1048)
+[2024.01.25-20.00.14:115][551]LogModuleManager: Shutting down and abandoning module SceneOutliner (1046)
+[2024.01.25-20.00.14:115][551]LogModuleManager: Shutting down and abandoning module AddContentDialog (1044)
+[2024.01.25-20.00.14:312][551]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1043)
+[2024.01.25-20.00.14:312][551]LogModuleManager: Shutting down and abandoning module StatusBar (1040)
+[2024.01.25-20.00.14:312][551]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1038)
+[2024.01.25-20.00.14:312][551]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1036)
+[2024.01.25-20.00.14:325][551]LogModuleManager: Shutting down and abandoning module DataLayerEditor (1034)
+[2024.01.25-20.00.14:325][551]LogModuleManager: Shutting down and abandoning module StatsViewer (1032)
+[2024.01.25-20.00.14:351][551]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1030)
+[2024.01.25-20.00.14:351][551]LogModuleManager: Shutting down and abandoning module AutomationWorker (1028)
+[2024.01.25-20.00.14:351][551]LogModuleManager: Shutting down and abandoning module WaveTableEditor (1026)
+[2024.01.25-20.00.14:393][551]LogModuleManager: Shutting down and abandoning module RigVMEditor (1024)
+[2024.01.25-20.00.14:433][551]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (1022)
+[2024.01.25-20.00.14:433][551]LogModuleManager: Shutting down and abandoning module GooglePADEditor (1020)
+[2024.01.25-20.00.14:433][551]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (1018)
+[2024.01.25-20.00.14:433][551]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (1016)
+[2024.01.25-20.00.14:433][551]LogModuleManager: Shutting down and abandoning module PlanarCut (1014)
+[2024.01.25-20.00.14:542][551]LogModuleManager: Shutting down and abandoning module FractureEngine (1012)
+[2024.01.25-20.00.14:571][551]LogModuleManager: Shutting down and abandoning module CharacterAI (1010)
+[2024.01.25-20.00.14:571][551]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (1008)
+[2024.01.25-20.00.14:612][551]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (1006)
+[2024.01.25-20.00.14:675][551]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (1004)
+[2024.01.25-20.00.14:777][551]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (1002)
+[2024.01.25-20.00.14:790][551]LogModuleManager: Shutting down and abandoning module TextureAlignMode (1000)
+[2024.01.25-20.00.14:812][551]LogModuleManager: Shutting down and abandoning module BspMode (998)
+[2024.01.25-20.00.14:820][551]LogModuleManager: Shutting down and abandoning module GeometryMode (996)
+[2024.01.25-20.00.14:828][551]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (994)
+[2024.01.25-20.00.14:828][551]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (992)
+[2024.01.25-20.00.14:828][551]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (990)
+[2024.01.25-20.00.14:828][551]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (988)
+[2024.01.25-20.00.14:839][551]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (986)
+[2024.01.25-20.00.14:839][551]LogModuleManager: Shutting down and abandoning module WebMMedia (984)
+[2024.01.25-20.00.14:849][551]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (982)
+[2024.01.25-20.00.14:885][551]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (980)
+[2024.01.25-20.00.14:909][551]LogModuleManager: Shutting down and abandoning module SequenceRecorder (979)
+[2024.01.25-20.00.14:914][551]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (976)
+[2024.01.25-20.00.14:942][551]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (974)
+[2024.01.25-20.00.14:942][551]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (972)
+[2024.01.25-20.00.14:948][551]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (970)
+[2024.01.25-20.00.14:948][551]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (968)
+[2024.01.25-20.00.14:948][551]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (966)
+[2024.01.25-20.00.14:948][551]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (964)
+[2024.01.25-20.00.14:948][551]LogModuleManager: Shutting down and abandoning module IKRigEditor (962)
+[2024.01.25-20.00.15:025][551]LogModuleManager: Shutting down and abandoning module ControlRigEditor (960)
+[2024.01.25-20.00.15:083][551]LogModuleManager: Shutting down and abandoning module SmartSnapping (958)
+[2024.01.25-20.00.15:083][551]LogModuleManager: Shutting down and abandoning module SessionServices (956)
