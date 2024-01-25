@@ -5852,3 +5852,6 @@ Script call stack:
 [2024.01.25-20.00.50:312][551]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
 [2024.01.25-20.00.50:312][551]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
 [2024.01.25-20.00.50:343][551]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.01.25-20.00.59:884][551]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.01.25-20.01.00:182][551]LogExit: Exiting.
+[2024.01.25-20.01.00:446][551]Log file closed, 01/25/24 17:01:00
