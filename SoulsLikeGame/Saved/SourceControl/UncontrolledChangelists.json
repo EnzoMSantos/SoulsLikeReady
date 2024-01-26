@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/MorningProject/SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_StateManagerComponent.uasset",
+				"E:/MorningProject/SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset",
+				"E:/MorningProject/SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Components/BP_CombatComponent.uasset",
 				"D:/SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset",
 				"D:/SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Interfaces/Combat_BPI.uasset",
 				"D:/SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/AnimNotifies/ResetAttack_AN.uasset",
