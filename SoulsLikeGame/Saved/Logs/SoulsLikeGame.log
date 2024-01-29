@@ -3073,3 +3073,1309 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2024.01.29-19.34.36:573][245]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
 [2024.01.29-19.34.36:579][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
 [2024.01.29-19.34.36:645][246]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.01.29-19.36.19:205][842]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.36.19:263][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.36.19:351][842]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.36.19:351][842]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter3C7AF46542A2E606B01E3B85D8B27D83.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.36.19:358][842]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 26.1 sec)
+[2024.01.29-19.36.19:361][842]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.36.19:361][842]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.36.34:106][318]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.36.34:276][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.36.34:364][318]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.36.34:365][318]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter51471BA84EAB9CB6344B82A971EA8323.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.36.34:372][318]LogFileHelpers: InternalPromptForCheckoutAndSave took 265 ms (total: 26.4 sec)
+[2024.01.29-19.36.34:374][318]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.36.34:374][318]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.36.35:322][419]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.36.35:411][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.29-19.36.36:063][452]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.29-19.36.36:069][452]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.29-19.36.36:069][452]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.29-19.36.36:070][452]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 788 us (total: 71 ms)
+[2024.01.29-19.36.36:070][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.29-19.36.36:070][452]PIE: New page: PIE session: ThirdPersonMap (29 de jan de 2024 13:36:36)
+[2024.01.29-19.36.36:070][452]LogPlayLevel: Display: Creating online subsystem for client :Context_20
+[2024.01.29-19.36.36:072][452]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.01.29-19.36.36:079][453]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.29-19.36.36:083][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003107s)
+[2024.01.29-19.36.36:083][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003149s)
+[2024.01.29-19.36.36:098][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.29-19.36.36:101][453]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.29-19.36.36:101][453]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.29-19.36.36:101][453]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.29-19.36.36:102][453]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.29-19.36.36:102][453]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.29-19.36.36:102][453]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.29-19.36.36:102][453]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.29-19.36.36:102][453]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.29-19.36.36:102][453]LogWorldPartition: Display: WorldPartition initialize took 813 us (total: 1.29 sec)
+[2024.01.29-19.36.36:103][453]LogPlayLevel: PIE: World Init took: (0.001824s)
+[2024.01.29-19.36.36:103][453]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.01.29-19.36.36:103][453]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-19.36.36:103][453]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-19.36.36:103][453]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-19.36.36:103][453]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-19.36.36:103][453]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.29-19.36.36:103][453]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-19.36.36:103][453]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.29-19.36.36:103][453]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-19.36.36:103][453]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.29-19.36.36:103][453]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.29-19.36.36:103][453]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.29-19.36.36:105][453]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.29-19.36.36:189][453]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.29-19.36.36:189][453]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-19.36.36:189][453]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-19.36.36:189][453]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-19.36.36:190][453]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.01.29-19.36.36:190][453]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.01.29-19.36.36:192][453]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.01.29-19.36.36:192][453]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.01.29-19.36.36:192][453]LogInit: FAudioDevice initialized with ID 13.
+[2024.01.29-19.36.36:192][453]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonMap'.
+[2024.01.29-19.36.36:192][453]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.29-19.36.36:248][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-19.36.36:248][453]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.29-19.36.36:250][453]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.29-16.36.36
+[2024.01.29-19.36.36:251][453]LogWorld: Bringing up level for play took: 0.002311
+[2024.01.29-19.36.36:260][453]PIE: Server logged in
+[2024.01.29-19.36.36:265][453]PIE: Play in editor total start time 0,196 seconds.
+[2024.01.29-19.36.36:280][453]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.01.29-19.36.43:658][713]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.29-19.36.48:993][905]LogBlueprintUserMessages: [BP_CombatCharacter_C_UAID_E0D55EDD9C74A5D201_1631957959] 20.0of damage was appliedDamage Causer:BP_ToughSword_C_0Instigator:BP_CombatCharacter_C_0
+[2024.01.29-19.36.59:341][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-19.36.59:341][289]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.29-19.36.59:342][289]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.29-19.36.59:357][289]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-19.36.59:358][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-19.36.59:358][289]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.29-19.36.59:360][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.29-19.36.59:364][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-19.36.59:383][289]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.29-19.36.59:383][289]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.01.29-19.36.59:384][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.29-19.36.59:385][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.01.29-19.36.59:393][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.29-19.36.59:429][290]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.01.29-19.36.59:982][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.37.00:116][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.37.00:201][356]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.37.00:202][356]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter3EF0A3FD42F8E8ABB08637B7F4275608.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.37.00:209][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms (total: 26.6 sec)
+[2024.01.29-19.37.00:211][356]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.37.00:211][356]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.37.13:943][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.37.13:997][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.37.14:083][981]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.37.14:083][981]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterF3E0ADC84A5466221226028D32587CE6.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.37.14:091][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 26.8 sec)
+[2024.01.29-19.37.14:093][981]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.37.14:093][981]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.42.15:049][759]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2024.01.29-19.42.15:058][759]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2024.01.29-19.42.15:070][760]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2024.01.29-19.42.23:794][587]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E_MovementSpeedMode
+[2024.01.29-19.42.23:797][587]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2024.01.29-19.42.26:124][839]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_MovementSpeedMode.E_MovementSpeedMode
+[2024.01.29-19.42.28:654][ 86]LogSlate: Window 'E_MovementSpeedMode' being destroyed
+[2024.01.29-19.43.16:288][535]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.43.16:326][535]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/Enums/E_MovementSpeedMode
+[2024.01.29-19.43.16:326][535]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/E_MovementSpeedMode81B7473B4D0419413B6F31AA65F1AEF6.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/Enums/E_MovementSpeedMode.uasset'
+[2024.01.29-19.43.16:331][535]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 26.8 sec)
+[2024.01.29-19.43.16:332][535]AssetCheck: New page: Asset Save: E_MovementSpeedMode
+[2024.01.29-19.43.16:332][535]LogContentValidation: Display: Validating /Script/Engine.UserDefinedEnum /Game/CombatSystem/Blueprints/Enums/E_MovementSpeedMode.E_MovementSpeedMode
+[2024.01.29-19.43.40:213][679]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.01.29-19.43.40:222][679]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.01.29-19.43.40:233][680]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.01.29-19.43.44:654][ 66]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Spring
+[2024.01.29-19.43.44:655][ 66]LogContentBrowser: End creating deferred item NewInputAction
+[2024.01.29-19.43.47:237][282]LogContentBrowser: Attempting asset rename: IA_Spring -> IA_Sprint
+[2024.01.29-19.43.48:115][282]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.43.48:179][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_Sprint" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/Actions/IA_Sprint.uasset" SILENT=true
+[2024.01.29-19.43.48:180][282]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_Sprint
+[2024.01.29-19.43.48:180][282]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/IA_SprintB76039A14720E2A533699C8D438F48BA.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/Actions/IA_Sprint.uasset'
+[2024.01.29-19.43.48:186][282]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 26.9 sec)
+[2024.01.29-19.43.48:242][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.01.29-19.43.48:261][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.29-19.43.48:276][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.01.29-19.43.48:278][282]AssetCheck: New page: Asset Save: IA_Sprint
+[2024.01.29-19.43.48:278][282]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Input/Actions/IA_Sprint.IA_Sprint
+[2024.01.29-19.43.51:795][589]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.29-19.44.11:932][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.44.11:979][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/IMC_Default.uasset" SILENT=true
+[2024.01.29-19.44.11:982][882]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2024.01.29-19.44.11:982][882]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/IMC_DefaultC3E9DBF744AE003031225697CAD87A1E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/IMC_Default.uasset'
+[2024.01.29-19.44.11:987][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 26.9 sec)
+[2024.01.29-19.44.11:988][882]AssetCheck: New page: Asset Save: IMC_Default
+[2024.01.29-19.44.11:988][882]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.29-19.44.28:989][ 50]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.01.29-19.44.28:995][ 50]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.01.29-19.44.29:004][ 51]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.01.29-19.44.33:765][623]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_ToggleWalk
+[2024.01.29-19.44.33:766][623]LogContentBrowser: End creating deferred item NewInputAction
+[2024.01.29-19.44.34:377][696]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.44.34:430][696]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/Actions/IA_ToggleWalk" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/Actions/IA_ToggleWalk.uasset" SILENT=true
+[2024.01.29-19.44.34:430][696]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_ToggleWalk
+[2024.01.29-19.44.34:430][696]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/IA_ToggleWalkD5DD08F8483CB2F0CC8B5094F931B00E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/Actions/IA_ToggleWalk.uasset'
+[2024.01.29-19.44.34:436][696]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 27.0 sec)
+[2024.01.29-19.44.34:436][696]AssetCheck: New page: Asset Save: IA_ToggleWalk
+[2024.01.29-19.44.34:436][696]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Input/Actions/IA_ToggleWalk.IA_ToggleWalk
+[2024.01.29-19.44.38:443][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.01.29-19.44.39:696][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.01.29-19.44.39:952][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.01.29-19.45.07:643][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.45.07:697][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Default" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/IMC_Default.uasset" SILENT=true
+[2024.01.29-19.45.07:700][407]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2024.01.29-19.45.07:700][407]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/IMC_DefaultDDDBD5FE47F99C3DE0F6FDB95C21EE52.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/Input/IMC_Default.uasset'
+[2024.01.29-19.45.07:706][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 27.1 sec)
+[2024.01.29-19.45.07:707][407]AssetCheck: New page: Asset Save: IMC_Default
+[2024.01.29-19.45.07:707][407]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.29-19.45.19:693][432]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-19.45.19:693][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-19.45.20:787][557]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-19.45.20:787][557]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-19.46.29:293][640]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.46.29:350][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.46.29:439][640]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.46.29:439][640]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter02F4DEDA460B821B4E4FCE92CC1963DD.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.46.29:446][640]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 27.2 sec)
+[2024.01.29-19.46.29:449][640]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.46.29:449][640]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.47.26:306][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.29-19.47.26:308][603]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.021
+[2024.01.29-19.47.26:308][603]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2024.01.29-19.47.26:411][603]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2024.01.29-19.47.26:411][603]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2024.01.29-19.47.26:537][603]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto4
+[2024.01.29-19.47.26:538][603]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter_Auto483F329C6429EFE8B6F9609A8A3DBB745.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto4.uasset'
+[2024.01.29-19.47.26:538][603]LogFileHelpers: Auto-saving content packages took 0.231
+[2024.01.29-19.47.58:060][273]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.47.58:149][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.29-19.48.13:480][877]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.48.13:569][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.01.29-19.48.14:138][901]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.48.14:264][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.48.14:353][901]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.48.14:354][901]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterCCCC9B404EC451E51649B092F82B099D.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.48.14:361][901]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 27.4 sec)
+[2024.01.29-19.48.14:363][901]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.48.14:363][901]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.48.35:472][ 70]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.48.35:560][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.01.29-19.48.36:157][126]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.48.36:282][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.48.36:371][126]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.48.36:371][126]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter73882FE749CED2D009A7169C98DC7D55.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.48.36:378][126]LogFileHelpers: InternalPromptForCheckoutAndSave took 221 ms (total: 27.7 sec)
+[2024.01.29-19.48.36:380][126]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.48.36:380][126]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.49.06:964][563]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.49.07:055][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.29-19.49.07:130][564]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.49.07:216][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.29-19.49.07:899][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.49.08:046][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.49.08:165][630]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.49.08:165][630]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter368B29564BB9C442C49C32B9076B5E01.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.49.08:171][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 272 ms (total: 27.9 sec)
+[2024.01.29-19.49.08:174][630]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.49.08:174][630]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.49.45:585][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.49.45:681][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.49.45:772][435]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.49.45:772][435]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterF3ACFCE5437C838D718B5E97B676CD1D.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.49.45:780][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 194 ms (total: 28.1 sec)
+[2024.01.29-19.49.45:781][435]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.49.45:781][435]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.50.05:194][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.50.05:345][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.50.05:434][380]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.50.05:434][380]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter954CEEFE4E35C7A59844EFA63269E562.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.50.05:442][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 247 ms (total: 28.4 sec)
+[2024.01.29-19.50.05:444][380]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.50.05:444][380]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.50.21:906][491]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.50.22:033][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.50.22:125][491]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.50.22:125][491]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter11941FE649931433DA4535A0CEF7EC95.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.50.22:133][491]LogFileHelpers: InternalPromptForCheckoutAndSave took 226 ms (total: 28.6 sec)
+[2024.01.29-19.50.22:135][491]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.50.22:135][491]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.50.24:423][698]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.50.24:511][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.01.29-19.50.24:944][739]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.50.25:056][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.50.25:145][739]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.50.25:145][739]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter55C94BBA40C15C72DD47B88E93DCE7A1.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.50.25:152][739]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms (total: 28.8 sec)
+[2024.01.29-19.50.25:154][739]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.50.25:155][739]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.50.58:022][183]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.50.58:133][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.50.58:225][183]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.50.58:225][183]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter4732C35E493D7CA85DAF3CBB3107130C.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.50.58:233][183]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 29.0 sec)
+[2024.01.29-19.50.58:235][183]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.50.58:235][183]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.50.59:279][307]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.50.59:327][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.50.59:417][307]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.50.59:417][307]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter20D80F714CF6EA1DD585608683CE7186.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.50.59:425][307]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 29.2 sec)
+[2024.01.29-19.50.59:427][307]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.50.59:427][307]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.51.00:263][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.51.00:293][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.51.00:383][407]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.51.00:384][407]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterDBF0CBF645E796CB2778ABAF01C8B108.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.51.00:391][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 29.3 sec)
+[2024.01.29-19.51.00:391][407]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.51.00:391][407]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.51.17:094][997]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.51.17:186][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.29-19.51.17:977][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.51.18:083][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.51.18:174][ 74]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.51.18:174][ 74]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter357DF4BF48EE6B592A064EB35C0660EE.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.51.18:183][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 29.5 sec)
+[2024.01.29-19.51.18:186][ 74]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.51.18:186][ 74]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.51.40:988][414]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.51.41:179][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.51.41:291][414]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.51.41:291][414]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter501E0D6B4AA44B047DEC2583A8ED177B.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.51.41:298][414]LogFileHelpers: InternalPromptForCheckoutAndSave took 310 ms (total: 29.8 sec)
+[2024.01.29-19.51.41:300][414]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.51.41:300][414]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.51.41:958][493]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.51.42:037][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.51.42:126][493]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.51.42:126][493]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterD038E20D4BB398E986AA21B91D68BDB6.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.51.42:134][493]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 30.0 sec)
+[2024.01.29-19.51.42:136][493]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.51.42:136][493]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.51.43:786][691]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.51.43:844][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.51.43:933][691]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.51.43:934][691]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter199D70E44E52266892D4299C63BB78BD.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.51.43:942][691]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 30.1 sec)
+[2024.01.29-19.51.43:944][691]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.51.43:944][691]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.51.45:939][877]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.51.45:995][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.51.46:083][877]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.51.46:083][877]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter3BAAB9E646C2F555F29D32BB52837154.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.51.46:091][877]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 30.3 sec)
+[2024.01.29-19.51.46:093][877]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.51.46:093][877]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.51.59:788][203]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.51.59:878][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.29-19.52.00:627][267]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.52.00:754][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.52.00:843][267]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.52.00:843][267]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterB014B1C64515D605F52C0A9C21B75BE9.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.52.00:850][267]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 30.5 sec)
+[2024.01.29-19.52.00:853][267]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.52.00:853][267]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.52.21:757][771]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.52.21:905][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.52.21:997][771]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.52.21:997][771]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter94FE0B7F45AB2CAE12F5F38BB483AE87.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.52.22:005][771]LogFileHelpers: InternalPromptForCheckoutAndSave took 248 ms (total: 30.8 sec)
+[2024.01.29-19.52.22:007][771]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.52.22:007][771]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.52.31:214][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.52.31:353][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.52.31:444][512]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.52.31:444][512]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterA1E3AA1E47473EF53D13DE99B8F5CCA7.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.52.31:453][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 239 ms (total: 31.0 sec)
+[2024.01.29-19.52.31:455][512]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.52.31:455][512]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.52.31:905][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.52.31:945][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.52.32:035][566]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.52.32:035][566]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterA4E7E86D4E82E6BE01043BBED7C9B989.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.52.32:042][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 31.1 sec)
+[2024.01.29-19.52.32:044][566]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.52.32:044][566]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.52.38:434][777]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.52.38:591][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.52.38:681][777]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.52.38:681][777]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterAD7866E74A065C8A57507BABF36C3152.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.52.38:689][777]LogFileHelpers: InternalPromptForCheckoutAndSave took 254 ms (total: 31.4 sec)
+[2024.01.29-19.52.38:691][777]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.52.38:691][777]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.52.55:873][567]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.52.56:008][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.52.56:100][567]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.52.56:100][567]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterE04F1A414F71D9DD3E0003BF7A1E8028.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.52.56:108][567]LogFileHelpers: InternalPromptForCheckoutAndSave took 235 ms (total: 31.6 sec)
+[2024.01.29-19.52.56:110][567]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.52.56:110][567]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.53.06:299][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.53.06:455][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.53.06:564][726]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.53.06:565][726]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterFB9BFC114DAB2FC9D3BA57AD0F399670.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.53.06:572][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 273 ms (total: 31.9 sec)
+[2024.01.29-19.53.06:574][726]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.53.06:574][726]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.53.23:053][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.53.23:244][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.53.23:337][194]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.53.23:337][194]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter14EC770C47325F83A17A4C9E22FE273A.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.53.23:344][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 290 ms (total: 32.2 sec)
+[2024.01.29-19.53.23:346][194]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.53.23:346][194]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.53.51:752][353]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.53.51:922][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.53.52:022][353]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.53.52:022][353]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterF8CAB07A485911CADDAEA2BFC5FC8D95.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.53.52:030][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 277 ms (total: 32.5 sec)
+[2024.01.29-19.53.52:032][353]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.53.52:032][353]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.53.55:729][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.53.55:783][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.53.55:874][778]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.53.55:874][778]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter1ACC7CF74D3A26C8AACB898E2CE4667F.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.53.55:881][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 32.6 sec)
+[2024.01.29-19.53.55:884][778]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.53.55:884][778]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.54.29:641][780]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.54.29:806][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.54.29:918][780]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.54.29:918][780]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterE2C7847840F8B23440BE55886C966150.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.54.29:925][780]LogFileHelpers: InternalPromptForCheckoutAndSave took 283 ms (total: 32.9 sec)
+[2024.01.29-19.54.29:928][780]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.54.29:928][780]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.54.33:896][240]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.54.34:040][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.54.34:132][240]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.54.34:133][240]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter5E8FA1F54C17CE25444340BD13069085.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.54.34:140][240]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms (total: 33.2 sec)
+[2024.01.29-19.54.34:142][240]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.54.34:142][240]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.54.35:210][354]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.54.35:309][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.01.29-19.54.35:978][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.54.36:104][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.54.36:195][412]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.54.36:195][412]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter8F5D79934B8051B937AFF38D1EAFD87F.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.54.36:202][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 33.4 sec)
+[2024.01.29-19.54.36:204][412]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.54.36:204][412]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.54.41:763][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.54.41:818][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.54.41:910][ 15]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.54.41:910][ 15]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterAA85B93F4614A67302216097FD8CEC97.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.54.41:918][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 33.5 sec)
+[2024.01.29-19.54.41:920][ 15]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.54.41:920][ 15]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.54.45:505][405]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.54.45:568][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.54.45:661][405]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.54.45:661][405]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter0202AB514F48152B305249900C23FA71.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.54.45:669][405]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 33.7 sec)
+[2024.01.29-19.54.45:671][405]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.54.45:671][405]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.54.47:237][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.54.47:269][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.54.47:363][575]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.54.47:363][575]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter3A9A06AB43977713F9452D9069C51E14.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.54.47:371][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 33.8 sec)
+[2024.01.29-19.54.47:373][575]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.54.47:373][575]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.54.54:316][349]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.54.54:353][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.54.54:444][349]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.54.54:445][349]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterA989AAC2481FA38664607BA7716275AD.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.54.54:451][349]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 34.0 sec)
+[2024.01.29-19.54.54:453][349]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.54.54:453][349]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.54.56:364][548]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.54.56:418][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.54.56:509][548]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.54.56:510][548]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterF4D61C964E3775C9E039A7AAF43C15C6.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.54.56:518][548]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 34.1 sec)
+[2024.01.29-19.54.56:519][548]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.54.56:519][548]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.55.00:539][  3]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.55.00:601][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.55.00:693][  3]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.55.00:693][  3]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterC00E8E3340AE96A7F359E4A80686D11B.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.55.00:701][  3]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 34.3 sec)
+[2024.01.29-19.55.00:703][  3]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.55.00:703][  3]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.55.33:454][879]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.55.33:595][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.55.33:687][879]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.55.33:687][879]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter3D7B26124DD26651ED4B668A8C13957C.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.55.33:694][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 240 ms (total: 34.5 sec)
+[2024.01.29-19.55.33:697][879]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.55.33:697][879]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.55.51:504][465]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.55.51:595][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.29-19.55.52:734][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.55.52:876][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.55.52:969][575]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.55.52:970][575]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterB402C7FF436C6CD5DA89F883E0B6DD0B.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.55.52:979][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 34.8 sec)
+[2024.01.29-19.55.52:981][575]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.55.52:981][575]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.56.20:124][899]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.56.20:193][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.56.20:286][899]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.56.20:286][899]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter674C4A224F00969D30CA8A9D365A4C7A.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.56.20:294][899]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 34.9 sec)
+[2024.01.29-19.56.20:296][899]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.56.20:296][899]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.56.27:853][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.56.27:998][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.56.28:091][762]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.56.28:092][762]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterC635B8034E92A04A7C993C95515C79E7.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.56.28:099][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 35.2 sec)
+[2024.01.29-19.56.28:101][762]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.56.28:102][762]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.56.44:422][964]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.56.44:539][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.56.44:631][964]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.56.44:632][964]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter1B6E32A54BF2A007D5EBF7BE0D9C09D3.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.56.44:639][964]LogFileHelpers: InternalPromptForCheckoutAndSave took 217 ms (total: 35.4 sec)
+[2024.01.29-19.56.44:642][964]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.56.44:642][964]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.57.12:935][590]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.57.13:059][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.57.13:174][590]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.57.13:174][590]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter52AE3DEB46325B0D6D7FFCBCDF90B4FC.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.57.13:183][590]LogFileHelpers: InternalPromptForCheckoutAndSave took 248 ms (total: 35.6 sec)
+[2024.01.29-19.57.13:185][590]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.57.13:185][590]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.57.20:084][704]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.57.20:139][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.57.20:230][704]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.57.20:230][704]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterAE153013465FE4F46FAB3A91FFCD3DB1.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.57.20:237][704]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 35.8 sec)
+[2024.01.29-19.57.20:239][704]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.57.20:239][704]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.57.20:699][747]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.57.20:793][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.01.29-19.57.20:922][747]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.57.21:013][747]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.01.29-19.57.21:322][748]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.57.21:413][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.29-19.57.21:542][748]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.57.21:633][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.29-19.57.21:674][748]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.57.21:765][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.29-19.57.33:257][352]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.57.33:351][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.29-19.57.34:600][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.57.34:726][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.57.34:820][442]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.57.34:821][442]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterD6CAE0BE4722A2288037A08E223FEF5E.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.57.34:828][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 36.0 sec)
+[2024.01.29-19.57.34:831][442]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.57.34:831][442]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.58.03:640][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.58.03:765][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.58.03:881][748]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.58.03:881][748]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter874264F345AE81032DC17BB5E6531F8D.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.58.03:889][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 248 ms (total: 36.3 sec)
+[2024.01.29-19.58.03:892][748]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.58.03:892][748]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.58.10:582][198]LogEditorTransaction: Undo Move Node
+[2024.01.29-19.58.18:138][920]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.58.18:248][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.58.18:342][920]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.58.18:342][920]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter315D12C7450E1D9501B657A881E05D79.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.58.18:350][920]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 36.5 sec)
+[2024.01.29-19.58.18:352][920]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.58.18:352][920]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.58.19:334][ 21]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.58.19:428][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.29-19.58.19:843][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.58.19:886][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.58.19:978][ 22]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.58.19:978][ 22]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter71D3096F403DE18C6E89E791C24D8AA1.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.58.19:985][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 36.6 sec)
+[2024.01.29-19.58.19:987][ 22]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.58.19:987][ 22]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.58.21:818][230]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.58.21:875][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.58.21:967][230]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.58.21:967][230]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter5834A07F49F54AC7032AE68B872E4983.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.58.21:974][230]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 36.8 sec)
+[2024.01.29-19.58.21:976][230]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.58.21:976][230]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.58.37:099][873]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.58.37:253][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.58.37:348][873]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.58.37:348][873]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterE5590B50436281F85CA240B79CE122C3.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.58.37:355][873]LogFileHelpers: InternalPromptForCheckoutAndSave took 255 ms (total: 37.0 sec)
+[2024.01.29-19.58.37:356][873]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.58.37:356][873]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.58.56:448][460]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.58.56:591][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.58.56:685][460]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.58.56:685][460]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacterB3CDB63F40148B000B3E11AE3C83DB99.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.58.56:694][460]LogFileHelpers: InternalPromptForCheckoutAndSave took 246 ms (total: 37.3 sec)
+[2024.01.29-19.58.56:697][460]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.58.56:697][460]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.59.05:272][508]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.59.05:366][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.01.29-19.59.05:768][509]BlueprintLog: New page: Compile BP_CombatCharacter
+[2024.01.29-19.59.05:863][509]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.29-19.59.06:848][576]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.29-19.59.06:979][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CombatSystem/Blueprints/BP_CombatCharacter" FILE="../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset" SILENT=true
+[2024.01.29-19.59.07:072][576]LogSavePackage: Moving output files for package: /Game/CombatSystem/Blueprints/BP_CombatCharacter
+[2024.01.29-19.59.07:072][576]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter937896E3425F6F3B9F2EAF886C980C9A.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Content/CombatSystem/Blueprints/BP_CombatCharacter.uasset'
+[2024.01.29-19.59.07:080][576]LogFileHelpers: InternalPromptForCheckoutAndSave took 232 ms (total: 37.5 sec)
+[2024.01.29-19.59.07:082][576]AssetCheck: New page: Asset Save: BP_CombatCharacter
+[2024.01.29-19.59.07:082][576]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter
+[2024.01.29-19.59.07:323][605]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.01.29-19.59.07:330][605]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.29-19.59.07:330][605]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.29-19.59.07:330][605]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 747 us (total: 72 ms)
+[2024.01.29-19.59.07:330][605]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.29-19.59.07:331][605]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2024.01.29-19.59.07:356][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.01.29-19.59.07:359][605]LogPlayLevel: PlayLevel: Blueprint regeneration took 28 ms (1 blueprints)
+[2024.01.29-19.59.07:359][605]PIE: New page: PIE session: ThirdPersonMap (29 de jan de 2024 13:59:07)
+[2024.01.29-19.59.07:359][605]LogPlayLevel: Display: Creating online subsystem for client :Context_21
+[2024.01.29-19.59.07:361][605]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.01.29-19.59.07:368][606]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.29-19.59.07:371][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003179s)
+[2024.01.29-19.59.07:371][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonMap.ThirdPersonMap to /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003228s)
+[2024.01.29-19.59.07:386][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.29-19.59.07:387][606]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.29-19.59.07:387][606]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.29-19.59.07:387][606]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.29-19.59.07:388][606]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.29-19.59.07:388][606]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.29-19.59.07:388][606]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.29-19.59.07:388][606]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.29-19.59.07:389][606]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.29-19.59.07:389][606]LogWorldPartition: Display: WorldPartition initialize took 899 us (total: 1.29 sec)
+[2024.01.29-19.59.07:389][606]LogPlayLevel: PIE: World Init took: (0.002007s)
+[2024.01.29-19.59.07:389][606]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.01.29-19.59.07:389][606]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-19.59.07:389][606]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-19.59.07:389][606]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-19.59.07:389][606]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-19.59.07:389][606]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.29-19.59.07:389][606]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-19.59.07:389][606]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.29-19.59.07:389][606]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-19.59.07:390][606]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.29-19.59.07:390][606]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.29-19.59.07:390][606]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.29-19.59.07:391][606]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.29-19.59.07:475][606]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (EDIFIER G2 II GAMING HEADSET)
+[2024.01.29-19.59.07:475][606]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-19.59.07:475][606]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-19.59.07:475][606]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-19.59.07:476][606]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.01.29-19.59.07:476][606]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.01.29-19.59.07:478][606]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.01.29-19.59.07:478][606]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.01.29-19.59.07:478][606]LogInit: FAudioDevice initialized with ID 14.
+[2024.01.29-19.59.07:478][606]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2024.01.29-19.59.07:478][606]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.29-19.59.07:514][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-19.59.07:514][606]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.29-19.59.07:516][606]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.29-16.59.07
+[2024.01.29-19.59.07:516][606]LogWorld: Bringing up level for play took: 0.002185
+[2024.01.29-19.59.07:526][606]PIE: Server logged in
+[2024.01.29-19.59.07:533][606]PIE: Play in editor total start time 0,203 seconds.
+[2024.01.29-19.59.07:547][606]LogViewport: Scene viewport resized to 1914x992, mode Windowed.
+[2024.01.29-19.59.43:049][ 11]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.29-19.59.43:049][ 11]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.29-19.59.44:903][ 81]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.29-19.59.44:903][ 81]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.29-19.59.45:113][ 89]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.29-19.59.45:114][ 89]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.29-19.59.45:899][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-19.59.45:899][117]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.29-19.59.45:899][117]LogSlate: Window 'SoulsLikeGame Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.29-19.59.45:905][117]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-19.59.45:905][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-19.59.45:905][117]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.29-19.59.45:908][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.29-19.59.45:913][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-19.59.45:932][117]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.01.29-19.59.45:932][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.29-19.59.45:934][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.01.29-19.59.45:941][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.01.29-19.59.45:979][118]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.01.29-19.59.59:935][956]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.29-20.00.04:274][111]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/CombatSystem/CourseFiles/Animations/LightSword/Locomotion/LightSword_BS.LightSword_BS
+[2024.01.29-20.00.04:415][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.29-20.00.04:415][111]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.29-20.00.04:723][111]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2024.01.29-20.00.04:817][111]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.01.29-20.00.05:591][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.29-20.00.05:591][111]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.29-20.00.05:853][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.29-20.00.05:921][111]LogSlate: Took 0.006384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.01.29-20.00.05:934][111]LogViewport: Scene viewport resized to 1141x470, mode Windowed.
+[2024.01.29-20.00.06:013][111]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.01.29-20.00.18:112][452]LogViewport: Scene viewport resized to 128x128, mode Windowed.
+[2024.01.29-20.00.22:048][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.01.29-20.00.22:070][464]LogStall: Shutdown...
+[2024.01.29-20.00.22:076][464]LogStall: Shutdown complete.
+[2024.01.29-20.00.22:245][464]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.22:245][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-20.00.22:485][464]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.22:485][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-20.00.22:528][464]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.22:529][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-20.00.22:626][464]LogSlate: Window 'SoulsLikeGame - Unreal Editor' being destroyed
+[2024.01.29-20.00.22:881][465]Cmd: QUIT_EDITOR
+[2024.01.29-20.00.22:881][465]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.01.29-20.00.22:886][465]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.01.29-20.00.22:886][465]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.01.29-20.00.22:886][465]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.01.29-20.00.22:886][465]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.22:886][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-20.00.22:887][465]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.29-20.00.22:926][465]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.01.29-20.00.24:027][465]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.01.29-20.00.24:027][465]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.01.29-20.00.24:027][465]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2024.01.29-20.00.24:027][465]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.01.29-20.00.24:027][465]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.29-20.00.24:033][465]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.01.29-20.00.24:053][465]LogAudio: Display: Audio Device Manager Shutdown
+[2024.01.29-20.00.24:055][465]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.01.29-20.00.24:080][465]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.01.29-20.00.24:080][465]LogExit: Preparing to exit.
+[2024.01.29-20.00.24:124][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:135][465]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.01.29-20.00.24:642][465]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-20.00.24:670][465]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.01.29-20.00.24:723][465]LogExit: Editor shut down
+[2024.01.29-20.00.24:725][465]LogExit: Transaction tracking system shut down
+[2024.01.29-20.00.24:982][465]LogExit: Object subsystem successfully closed.
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: ================================================
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: Total job queries 22, among them cache hits 4 (18.18%)
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: Tracking 18 distinct input hashes that result in 18 distinct outputs (100.00%)
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: RAM used: 494,68 KiB of 819,20 MiB budget. Usage: 0.06%
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.29-20.00.24:989][465]LogShaderCompilers: Display: ================================================
+[2024.01.29-20.00.25:070][465]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.01.29-20.00.25:163][465]LogVirtualization: UE::Virtualization was shutdown
+[2024.01.29-20.00.25:194][465]LogModuleManager: Shutting down and abandoning module PinnedCommandList (1060)
+[2024.01.29-20.00.25:194][465]LogModuleManager: Shutting down and abandoning module SkeletonEditor (1058)
+[2024.01.29-20.00.25:194][465]LogModuleManager: Shutting down and abandoning module AnimationEditor (1056)
+[2024.01.29-20.00.25:194][465]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1054)
+[2024.01.29-20.00.25:194][465]LogModuleManager: Shutting down and abandoning module Voice (1052)
+[2024.01.29-20.00.25:197][465]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1050)
+[2024.01.29-20.00.25:198][465]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1048)
+[2024.01.29-20.00.25:198][465]LogModuleManager: Shutting down and abandoning module SceneOutliner (1046)
+[2024.01.29-20.00.25:198][465]LogModuleManager: Shutting down and abandoning module AddContentDialog (1044)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1043)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module StatusBar (1040)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1038)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1036)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module DataLayerEditor (1034)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module StatsViewer (1032)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1030)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module AutomationWorker (1028)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module SmartSnapping (1026)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module TextureAlignMode (1024)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module BspMode (1022)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module GeometryMode (1020)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (1018)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (1016)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module WaveTableEditor (1014)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module RigVMEditor (1012)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (1010)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module GooglePADEditor (1008)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (1006)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (1004)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1002)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1000)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (998)
+[2024.01.29-20.00.25:206][465]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (996)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module WebMMedia (994)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (992)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (990)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module SequenceRecorder (989)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (986)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (984)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (982)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (980)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (978)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (976)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (974)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (972)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (970)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (968)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module IKRigEditor (966)
+[2024.01.29-20.00.25:207][465]LogModuleManager: Shutting down and abandoning module ControlRigEditor (964)
+[2024.01.29-20.00.25:213][465]LogModuleManager: Shutting down and abandoning module PlanarCut (962)
+[2024.01.29-20.00.25:213][465]LogModuleManager: Shutting down and abandoning module FractureEngine (960)
+[2024.01.29-20.00.25:213][465]LogModuleManager: Shutting down and abandoning module CharacterAI (958)
+[2024.01.29-20.00.25:213][465]LogModuleManager: Shutting down and abandoning module SessionServices (956)
+[2024.01.29-20.00.25:252][465]LogModuleManager: Shutting down and abandoning module MeshPaint (954)
+[2024.01.29-20.00.25:252][465]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (952)
+[2024.01.29-20.00.25:252][465]LogModuleManager: Shutting down and abandoning module PlacementMode (951)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module FoliageEdit (948)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module LandscapeEditor (946)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (944)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module ActorPickerMode (942)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module ViewportSnapping (940)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module EditorWidgets (938)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module ViewportInteraction (936)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module ClothPainter (934)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (933)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module WidgetRegistration (930)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module LogVisualizer (928)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (926)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (924)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (923)
+[2024.01.29-20.00.25:264][465]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (921)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (918)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (916)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (914)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (912)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (910)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (908)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module AnimationSettings (906)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (904)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module CSVtoSVG (902)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (900)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module EditorConfig (898)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module EditorFramework (896)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (894)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module TraceInsights (892)
+[2024.01.29-20.00.25:525][465]MemoryProfiler: Shutdown
+[2024.01.29-20.00.25:525][465]NetworkingProfiler: Shutdown
+[2024.01.29-20.00.25:525][465]LoadingProfiler: Shutdown
+[2024.01.29-20.00.25:525][465]TimingProfiler: Shutdown
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module TraceServices (891)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module TraceAnalysis (890)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (886)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (885)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module InputBindingEditor (882)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module MergeActors (880)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (878)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module LocalizationService (877)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module HardwareTargeting (874)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (872)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module UndoHistory (870)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module XmlParser (868)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module Blutility (866)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (864)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (863)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (860)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (859)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module SettingsEditor (856)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module ProjectLauncher (854)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module SessionFrontend (852)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module ProfilerClient (850)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module DeviceManager (848)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module AutomationController (846)
+[2024.01.29-20.00.25:525][465]LogModuleManager: Shutting down and abandoning module AutomationWindow (844)
+[2024.01.29-20.00.25:526][465]LogModuleManager: Shutting down and abandoning module Layers (842)
+[2024.01.29-20.00.25:526][465]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (840)
+[2024.01.29-20.00.25:526][465]LogModuleManager: Shutting down and abandoning module DetailCustomizations (838)
+[2024.01.29-20.00.25:526][465]LogModuleManager: Shutting down and abandoning module PackagesDialog (836)
+[2024.01.29-20.00.25:526][465]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (834)
+[2024.01.29-20.00.25:526][465]LogModuleManager: Shutting down and abandoning module Persona (832)
+[2024.01.29-20.00.25:526][465]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (831)
+[2024.01.29-20.00.25:526][465]LogModuleManager: Shutting down and abandoning module Kismet (828)
+[2024.01.29-20.00.25:534][465]LogModuleManager: Shutting down and abandoning module KismetWidgets (827)
+[2024.01.29-20.00.25:534][465]LogModuleManager: Shutting down and abandoning module GraphEditor (824)
+[2024.01.29-20.00.25:534][465]LogModuleManager: Shutting down and abandoning module StructViewer (822)
+[2024.01.29-20.00.25:534][465]LogModuleManager: Shutting down and abandoning module ClassViewer (820)
+[2024.01.29-20.00.25:534][465]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (818)
+[2024.01.29-20.00.25:534][465]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (816)
+[2024.01.29-20.00.25:534][465]LogModuleManager: Shutting down and abandoning module SourceControlWindows (814)
+[2024.01.29-20.00.25:534][465]LogModuleManager: Shutting down and abandoning module OutputLog (812)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module Documentation (810)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (808)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (806)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module MovieScene (804)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (802)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (800)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (798)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module AudioMixer (797)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module AudioMixerCore (796)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module LauncherPlatform (792)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module AnalyticsET (790)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module PortalServices (788)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module PortalRpc (786)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module MessagingRpc (784)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module AIModule (782)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module GameplayDebugger (781)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module AITestSuite (779)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module NavigationSystem (777)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (774)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (772)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module TypedElementFramework (770)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (768)
+[2024.01.29-20.00.25:535][465]LogModuleManager: Shutting down and abandoning module ProfilerService (766)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (764)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (762)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (760)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (758)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module TakesCore (756)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (754)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module MegascansPlugin (752)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module Bridge (750)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (748)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (746)
+[2024.01.29-20.00.25:774][465]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (744)
+[2024.01.29-20.00.25:775][465]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (742)
+[2024.01.29-20.00.25:775][465]LogModuleManager: Shutting down and abandoning module CollectionManager (741)
+[2024.01.29-20.00.25:775][465]LogModuleManager: Shutting down and abandoning module LightMixer (738)
+[2024.01.29-20.00.25:775][465]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (736)
+[2024.01.29-20.00.25:775][465]LogModuleManager: Shutting down and abandoning module TakeSequencer (734)
+[2024.01.29-20.00.25:775][465]LogModuleManager: Shutting down and abandoning module TakeMovieScene (732)
+[2024.01.29-20.00.25:775][465]LogModuleManager: Shutting down and abandoning module AlembicImporter (730)
+[2024.01.29-20.00.25:776][465]LogModuleManager: Shutting down and abandoning module AlembicLibrary (729)
+[2024.01.29-20.00.25:776][465]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (726)
+[2024.01.29-20.00.25:776][465]LogModuleManager: Shutting down and abandoning module UVEditorTools (724)
+[2024.01.29-20.00.25:776][465]LogModuleManager: Shutting down and abandoning module UVEditor (722)
+[2024.01.29-20.00.25:795][465]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (720)
+[2024.01.29-20.00.25:795][465]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (718)
+[2024.01.29-20.00.25:795][465]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (716)
+[2024.01.29-20.00.25:796][465]LogModuleManager: Shutting down and abandoning module Paper2DEditor (714)
+[2024.01.29-20.00.25:796][465]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (712)
+[2024.01.29-20.00.25:796][465]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (710)
+[2024.01.29-20.00.25:796][465]LogModuleManager: Shutting down and abandoning module PluginBrowser (708)
+[2024.01.29-20.00.25:796][465]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (706)
+[2024.01.29-20.00.25:796][465]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (704)
+[2024.01.29-20.00.25:808][465]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (702)
+[2024.01.29-20.00.25:808][465]LogModuleManager: Shutting down and abandoning module EditorDebugTools (700)
+[2024.01.29-20.00.25:808][465]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (698)
+[2024.01.29-20.00.25:808][465]LogModuleManager: Shutting down and abandoning module CurveEditorTools (696)
+[2024.01.29-20.00.25:808][465]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (694)
+[2024.01.29-20.00.25:808][465]LogModuleManager: Shutting down and abandoning module CryptoKeys (692)
+[2024.01.29-20.00.25:808][465]LogModuleManager: Shutting down and abandoning module ChangelistReview (690)
+[2024.01.29-20.00.25:808][465]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (688)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module SynthesisEditor (686)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module ResonanceAudio (684)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (682)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (680)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (678)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module ModelingOperators (676)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (674)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module ModelingComponents (672)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module GeometryFramework (671)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (668)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module MeshModelingTools (666)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (664)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module InputDebugging (662)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module GooglePAD (660)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module DynamicMesh (658)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (656)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (654)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module GeometryCache (652)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (650)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (648)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (646)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module AudioCapture (644)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (643)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module AssetTags (640)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (638)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (636)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module AppleImageUtils (634)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module AndroidPermission (632)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (630)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (628)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (626)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module InterchangeExport (624)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module InterchangeMessages (622)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module GLTFCore (620)
+[2024.01.29-20.00.25:809][465]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (618)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (616)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (614)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (612)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (610)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module InterchangeEditor (608)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (606)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module InterchangeTests (604)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module VariantManager (602)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (601)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (598)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (596)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module MediaPlate (594)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module MediaCompositing (592)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module ImgMedia (590)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module TemplateSequence (588)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (586)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module SequencerScripting (584)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (582)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (580)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (578)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module UObjectPlugin (576)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (574)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module PluginUtils (572)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module GitSourceControl (570)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (568)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module DumpGPUServices (566)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (564)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (562)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (560)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module ControlRigSpline (558)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (556)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (554)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (552)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (548)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (546)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (544)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (542)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (540)
+[2024.01.29-20.00.25:810][465]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (538)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (536)
+[2024.01.29-20.00.25:811][465]LogOpenImageDenoise: OIDN shutting down
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (534)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module LocalizableMessage (532)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module MeshLODToolset (530)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (528)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (526)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (524)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (522)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (520)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (518)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (516)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (515)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (513)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (510)
+[2024.01.29-20.00.25:811][465]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (508)
+[2024.01.29-20.00.25:816][465]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (506)
+[2024.01.29-20.00.25:827][465]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (504)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module DataflowNodes (502)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (500)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module DataflowEditor (498)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (496)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (494)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (492)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module ChaosNiagara (490)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module FractureEditor (488)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (486)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module AutomationUtils (484)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module BackChannel (482)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (480)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module TraceUtilities (478)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (476)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (474)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module InputEditor (472)
+[2024.01.29-20.00.25:832][465]LogModuleManager: Shutting down and abandoning module Paper2D (470)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (468)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (466)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module FacialAnimation (464)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module DataValidation (462)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module GameplayCameras (460)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (458)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module TreeMap (457)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module Synthesis (454)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module SoundFields (452)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module SignificanceManager (450)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module RigVMDeveloper (448)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module RigVM (446)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (444)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (442)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module MsQuicRuntime (440)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module MetasoundEditor (438)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module AudioWidgets (437)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (436)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (432)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module MetasoundEngine (430)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module WaveTable (429)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (427)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (424)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (422)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (420)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (418)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (416)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (414)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module CableComponent (412)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (410)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (409)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (406)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module InterchangePipelines (404)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module InterchangeImport (402)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (400)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module InterchangeNodes (398)
+[2024.01.29-20.00.25:833][465]LogModuleManager: Shutting down and abandoning module UdpMessaging (396)
+[2024.01.29-20.00.25:934][465]LogModuleManager: Shutting down and abandoning module TcpMessaging (394)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (392)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module ActorSequence (390)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (388)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (386)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module AnimationSharing (384)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (382)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (380)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module Niagara (378)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module SignalProcessing (377)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module NiagaraEditor (375)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module ContentBrowser (374)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module ToolMenus (373)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module ContentBrowserData (371)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module NiagaraCore (366)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (364)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module IKRig (362)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (360)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module ControlRig (358)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module Constraints (357)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module AnimationData (354)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module StructUtils (352)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (350)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module PBIK (348)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module FullBodyIK (346)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (344)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module TakeRecorder (343)
+[2024.01.29-20.00.26:035][465]LogModuleManager: Shutting down and abandoning module LevelEditor (341)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (340)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (338)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module MainFrame (336)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module HotReload (335)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module ChaosCaching (330)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module LevelSequence (329)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (326)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module BlueprintGraph (325)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module EnhancedInput (322)
+[2024.01.29-20.00.26:040][465]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (320)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (318)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module AndroidFileServer (316)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (314)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module PacketHandler (312)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (310)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module AnimGraph (308)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module TimeManagement (306)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module AnimationDataController (304)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module ScriptableEditorWidgets (278)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module EditorStyle (270)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2024.01.29-20.00.26:047][465]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2024.01.29-20.00.26:048][465]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (262)
+[2024.01.29-20.00.26:048][465]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (260)
+[2024.01.29-20.00.26:048][465]LogModuleManager: Shutting down and abandoning module UnrealEd (258)
+[2024.01.29-20.00.26:048][465]LogModuleManager: Shutting down and abandoning module MRMesh (256)
+[2024.01.29-20.00.26:048][465]LogModuleManager: Shutting down and abandoning module Messaging (254)
+[2024.01.29-20.00.26:048][465]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (252)
+[2024.01.29-20.00.26:049][465]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (250)
+[2024.01.29-20.00.26:049][465]LogModuleManager: Shutting down and abandoning module LiveCoding (248)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module Networking (246)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module Core (244)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module AssetDefinition (242)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module MovieSceneTools (240)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module CurveEditor (239)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module Sequencer (237)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module KismetCompiler (234)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module MeshBuilder (232)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module NaniteBuilder (230)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module MeshUtilities (228)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (227)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module StaticMeshDescription (226)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (225)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (222)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (221)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (219)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (217)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (215)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module MaterialBaking (211)
+[2024.01.29-20.00.26:062][465]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (208)
+[2024.01.29-20.00.26:073][465]LogModuleManager: Shutting down and abandoning module TelemetryUtils (205)
+[2024.01.29-20.00.26:073][465]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (202)
+[2024.01.29-20.00.26:073][465]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (200)
+[2024.01.29-20.00.26:073][465]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (195)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (187)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module AudioFormatBINK (185)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (183)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (181)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (179)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (177)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (175)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (173)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (171)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (169)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (167)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (165)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module TextureFormat (163)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2024.01.29-20.00.26:078][465]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (160)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (158)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (156)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (154)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (152)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (150)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module TurnkeySupport (147)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module InputCore (144)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module Settings (142)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (140)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (138)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (137)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module Chaos (134)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module GeometryCore (133)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (130)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (129)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module AVEncoder (128)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module D3D12RHI (124)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (122)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (120)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module ChunkDownloader (118)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module VariantManagerContent (116)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module GLTFExporter (114)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module DatasmithContent (112)
+[2024.01.29-20.00.26:079][465]LogModuleManager: Shutting down and abandoning module WmfMedia (110)
+[2024.01.29-20.00.26:082][465]LogModuleManager: Shutting down and abandoning module Media (109)
+[2024.01.29-20.00.26:083][465]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (106)
+[2024.01.29-20.00.26:083][465]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (104)
+[2024.01.29-20.00.26:083][465]RenderDocPlugin: plugin has been unloaded.
+[2024.01.29-20.00.26:083][465]LogModuleManager: Shutting down and abandoning module PixWinPlugin (102)
+[2024.01.29-20.00.26:083][465]LogModuleManager: Shutting down and abandoning module AISupportModule (100)
+[2024.01.29-20.00.26:083][465]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (98)
+[2024.01.29-20.00.26:083][465]LogModuleManager: Shutting down and abandoning module NiagaraShader (96)
+[2024.01.29-20.00.26:083][465]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (94)
+[2024.01.29-20.00.26:083][465]LogModuleManager: Shutting down and abandoning module ACLPlugin (92)
+[2024.01.29-20.00.26:084][465]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (90)
+[2024.01.29-20.00.26:084][465]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (88)
+[2024.01.29-20.00.26:084][465]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2024.01.29-20.00.26:085][465]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2024.01.29-20.00.26:085][465]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2024.01.29-20.00.26:120][465]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2024.01.29-20.00.26:120][465]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.01.29-20.00.26:120][465]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B218E5FD0-43EB-A059-9AEB-4D9D32C69253%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f24fd76c44badc5220ccb69654d2840a%7C53374193149c43d19159cdb575a00a79%7C6d1526cc-2e95-4472-bd6b-aaee525d63ac&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2024.01.29-20.00.26:146][465]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2024.01.29-20.00.26:147][465]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (72)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (70)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (68)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module ChaosCloth (66)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module DesktopPlatform (64)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (62)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (60)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module SourceControl (59)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (56)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (54)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (52)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module PlatformCrypto (50)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module XGEController (48)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module FastBuildController (46)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module IoStoreOnDemand (44)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module AnimationModifiers (42)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module AudioEditor (40)
+[2024.01.29-20.00.26:148][465]LogModuleManager: Shutting down and abandoning module PropertyEditor (39)
+[2024.01.29-20.00.26:149][465]LogModuleManager: Shutting down and abandoning module Virtualization (36)
+[2024.01.29-20.00.26:149][465]LogModuleManager: Shutting down and abandoning module MessageLog (35)
+[2024.01.29-20.00.26:149][465]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2024.01.29-20.00.26:149][465]LogModuleManager: Shutting down and abandoning module OpenColorIOWrapper (31)
+[2024.01.29-20.00.26:149][465]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2024.01.29-20.00.26:149][465]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.01.29-20.00.26:149][465]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2024.01.29-20.00.26:150][465]LogPakFile: Destroying PakPlatformFile
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2024.01.29-20.00.26:150][465]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.01.29-20.00.26:551][465]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.01.29-20.00.26:611][465]LogExit: Exiting.
+[2024.01.29-20.00.26:642][465]Log file closed, 01/29/24 17:00:26
