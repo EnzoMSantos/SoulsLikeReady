@@ -4680,3 +4680,15 @@ Script call stack:
 [2024.02.06-19.46.54:548][812]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
 [2024.02.06-19.46.54:556][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
 [2024.02.06-19.46.54:663][813]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2024.02.06-19.53.48:079][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.02.06-19.53.48:080][401]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/ThirdPersonMap' took 0.020
+[2024.02.06-19.53.48:081][401]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CombatSystem/Blueprints/BP_CombatCharacter] ([2] browsable assets)...
+[2024.02.06-19.53.48:163][401]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/CombatSystem/Blueprints/BP_CombatCharacter.BP_CombatCharacter]
+[2024.02.06-19.53.48:163][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/BP_CombatCharacter]
+[2024.02.06-19.53.48:288][401]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto7
+[2024.02.06-19.53.48:289][401]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_CombatCharacter_Auto7F455A4FC47C39278A0F5D5A3855D727A.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/BP_CombatCharacter_Auto7.uasset'
+[2024.02.06-19.53.48:289][401]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon] ([2] browsable assets)...
+[2024.02.06-19.53.48:289][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon]
+[2024.02.06-19.53.48:346][401]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto7
+[2024.02.06-19.53.48:347][401]LogSavePackage: Moving '../../../../SoulsLikeReady/SoulsLikeGame/Saved/BP_BaseWeapon_Auto79AB0D45C4B0FDA05AE0CEFAB7E08FC50.tmp' to '../../../../SoulsLikeReady/SoulsLikeGame/Saved/Autosaves/Game/CombatSystem/Blueprints/Actors/BP_BaseWeapon_Auto7.uasset'
+[2024.02.06-19.53.48:347][401]LogFileHelpers: Auto-saving content packages took 0.267
